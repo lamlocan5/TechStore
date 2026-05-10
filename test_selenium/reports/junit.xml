@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="11" skipped="0" tests="19" time="225.601" timestamp="2026-05-10T04:05:51.274158" hostname="HSCT-1"><testcase classname="tests.test_user_login.TestUserLogin" name="test_user_login_success" time="7.525" /><testcase classname="tests.test_user_login.TestUserLogin" name="test_user_login_wrong_password" time="9.298" /><testcase classname="tests.test_user_login.TestUserLogin" name="test_user_account_lock" time="15.776"><failure message="Failed: [UDN_17/18] BUG — Sau 6 lần sai, account KHÔNG bị khóa. DB status='ACTIVE', failed_attempt=None.">tests\test_user_login.py:118: in test_user_account_lock
+    pytest.fail(
+E   Failed: [UDN_17/18] BUG — Sau 6 lần sai, account KHÔNG bị khóa. DB status='ACTIVE', failed_attempt=None.</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_success" time="8.313" /><testcase classname="tests.test_register.TestRegister" name="test_register_duplicate_username" time="20.689" /><testcase classname="tests.test_register.TestRegister" name="test_register_last_name_numbers" time="10.187"><failure message="Failed: [DK_10] BUG — Hệ thống cho phép nhập số vào trường Họ. (redirected=True, db_found=True)">tests\test_register.py:141: in test_register_last_name_numbers
+    _assert_bug_if_success(page, driver, "sel_ln_num", "DK_10",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_10] BUG — Hệ thống cho phép nhập số vào trường Họ. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_last_name_special" time="10.184"><failure message="Failed: [DK_11] BUG — Hệ thống cho phép nhập ký tự đặc biệt vào trường Họ. (redirected=True, db_found=True)">tests\test_register.py:152: in test_register_last_name_special
+    _assert_bug_if_success(page, driver, "sel_ln_sc", "DK_11",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_11] BUG — Hệ thống cho phép nhập ký tự đặc biệt vào trường Họ. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_first_name_numbers" time="10.962"><failure message="Failed: [DK_13] BUG — Hệ thống cho phép nhập số vào trường Tên. (redirected=True, db_found=True)">tests\test_register.py:163: in test_register_first_name_numbers
+    _assert_bug_if_success(page, driver, "sel_fn_num", "DK_13",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_13] BUG — Hệ thống cho phép nhập số vào trường Tên. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_first_name_special" time="10.066"><failure message="Failed: [DK_14] BUG — Hệ thống cho phép nhập ký tự đặc biệt vào trường Tên. (redirected=True, db_found=True)">tests\test_register.py:174: in test_register_first_name_special
+    _assert_bug_if_success(page, driver, "sel_fn_sc", "DK_14",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_14] BUG — Hệ thống cho phép nhập ký tự đặc biệt vào trường Tên. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_username_special" time="9.330"><failure message="Failed: [DK_16] BUG — Hệ thống cho phép ký tự đặc biệt trong username. User đã được tạo: ['%$%@']">tests\test_register.py:202: in test_register_username_special
+    pytest.fail(
+E   Failed: [DK_16] BUG — Hệ thống cho phép ký tự đặc biệt trong username. User đã được tạo: ['%$%@']</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_empty_email" time="9.967"><failure message="Failed: [DK_17] BUG — Hệ thống cho phép đăng ký khi bỏ trống email. (redirected=True, db_found=True)">tests\test_register.py:222: in test_register_empty_email
+    _assert_bug_if_success(page, driver, "sel_empty_em", "DK_17",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_17] BUG — Hệ thống cho phép đăng ký khi bỏ trống email. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_duplicate_email" time="21.697" /><testcase classname="tests.test_register.TestRegister" name="test_register_invalid_email" time="8.873" /><testcase classname="tests.test_register.TestRegister" name="test_register_empty_phone" time="10.212"><failure message="Failed: [DK_20] BUG — Hệ thống cho phép đăng ký khi bỏ trống số điện thoại. (redirected=True, db_found=True)">tests\test_register.py:295: in test_register_empty_phone
+    _assert_bug_if_success(page, driver, "sel_empty_ph", "DK_20",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_20] BUG — Hệ thống cho phép đăng ký khi bỏ trống số điện thoại. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_duplicate_phone" time="21.520" /><testcase classname="tests.test_register.TestRegister" name="test_register_future_dob" time="10.138"><failure message="Failed: [DK_27] BUG — Hệ thống chấp nhận ngày sinh tương lai (02/02/2030). (redirected=True, db_found=True)">tests\test_register.py:331: in test_register_future_dob
+    _assert_bug_if_success(page, driver, "sel_fut_dob", "DK_27",
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_27] BUG — Hệ thống chấp nhận ngày sinh tương lai (02/02/2030). (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_register.TestRegister" name="test_register_weak_password" time="10.131"><failure message="Failed: [DK_32] BUG — Hệ thống chấp nhận mật khẩu yếu '123456'. (redirected=True, db_found=True)">tests\test_register.py:345: in test_register_weak_password
+    _assert_bug_if_success(page, driver, uname, test_id,
+tests\test_register.py:92: in _assert_bug_if_success
+    pytest.fail(f"[{test_id}] BUG — {msg} (redirected={redirected}, db_found={bool(db_user)})")
+E   Failed: [DK_32] BUG — Hệ thống chấp nhận mật khẩu yếu '123456'. (redirected=True, db_found=True)</failure></testcase><testcase classname="tests.test_change_password.TestChangePassword" name="test_change_password_success" time="9.408" /><testcase classname="tests.test_change_password.TestChangePassword" name="test_change_password_weak" time="10.908"><failure message="Failed: [DMK_15+16] BUG — Backend đã đổi password sang '123456' (toàn số). DB hash đã thay đổi. Password policy không được enforce phía backend.">tests\test_change_password.py:77: in test_change_password_weak
+    pytest.fail(
+E   Failed: [DMK_15+16] BUG — Backend đã đổi password sang '123456' (toàn số). DB hash đã thay đổi. Password policy không được enforce phía backend.</failure></testcase></testsuite></testsuites>
