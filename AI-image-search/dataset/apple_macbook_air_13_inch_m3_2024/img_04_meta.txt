@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Air 13-inch (M3, 2024)
+Color: Sky Blue
+Angle: With accessories
+Description: Sky Blue unit with color-matched MagSafe charging cable
+Source URL: https://www.apple.com/v/macbook-air/w/images/overview/design/color/design_magsafe_skyblue__gii6y9jn1yai_large.jpg

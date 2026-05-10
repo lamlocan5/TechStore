@@ -1,0 +1,89 @@
+<div class="page-header">
+    <h2>Quản lý Rank & Thành viên</h2>
+    <div class="page-actions">
+        <button class="btn btn-secondary" onclick="refreshUsers()">Làm mới</button>
+    </div>
+</div>
+
+<!-- Rank Statistics -->
+<div id="rank-statistics" style="margin-bottom: 30px;">
+    <div style="text-align: center; padding: 20px;">Đang tải thống kê...</div>
+</div>
+
+<!-- Filter Section -->
+<div class="filter-section" style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; margin-bottom: 15px;">Bộ lọc</h3>
+    <div class="filter-row" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+        <div class="form-group">
+            <label>Tìm kiếm (Username, Họ tên, ID)</label>
+            <input type="text" id="user-search" class="search-input" placeholder="Tìm kiếm...">
+        </div>
+        <div class="form-group">
+            <label>Lọc theo Rank</label>
+            <select id="rank-filter" class="form-select" onchange="filterUsersByRank(this.value)">
+                <option value="ALL">Tất cả</option>
+                <option value="BRONZE">Đồng (BRONZE)</option>
+                <option value="SILVER">Bạc (SILVER)</option>
+                <option value="GOLD">Vàng (GOLD)</option>
+                <option value="DIAMOND">Kim Cương (DIAMOND)</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- Users Table -->
+<div class="table-container" style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Họ tên</th>
+                <th>Rank</th>
+                <th>Tổng chi tiêu</th>
+                <th>Tiến độ lên hạng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="users-table-body">
+            <tr><td colspan="7" style="text-align: center;">Đang tải...</td></tr>
+        </tbody>
+    </table>
+</div>
+<div id="users-pagination"></div>
+
+<!-- Rank Info Section -->
+<div style="background: white; padding: 20px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">Thông tin các hạng thành viên</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+        <div style="padding: 15px; border: 1px solid #eee; border-radius: 4px; border-left: 4px solid #cd7f32;">
+            <h4 style="margin: 0 0 10px 0; color: #cd7f32;">Đồng (BRONZE)</h4>
+            <p style="margin: 0; color: #666; font-size: 14px;">
+                <strong>Ngưỡng:</strong> 0 - 10 triệu VNĐ<br>
+                <strong>Đặc quyền:</strong> Hạng mặc định, hưởng các khuyến mãi chung
+            </p>
+        </div>
+        <div style="padding: 15px; border: 1px solid #eee; border-radius: 4px; border-left: 4px solid #c0c0c0;">
+            <h4 style="margin: 0 0 10px 0; color: #c0c0c0;">Bạc (SILVER)</h4>
+            <p style="margin: 0; color: #666; font-size: 14px;">
+                <strong>Ngưỡng:</strong> > 10 triệu VNĐ<br>
+                <strong>Đặc quyền:</strong> Ưu đãi giảm giá 1-2% tùy chiến dịch
+            </p>
+        </div>
+        <div style="padding: 15px; border: 1px solid #eee; border-radius: 4px; border-left: 4px solid #ffd700;">
+            <h4 style="margin: 0 0 10px 0; color: #ffd700;">Vàng (GOLD)</h4>
+            <p style="margin: 0; color: #666; font-size: 14px;">
+                <strong>Ngưỡng:</strong> > 40 triệu VNĐ<br>
+                <strong>Đặc quyền:</strong> Miễn phí vận chuyển, giảm giá sâu hơn, được đặt trước hàng hot
+            </p>
+        </div>
+        <div style="padding: 15px; border: 1px solid #eee; border-radius: 4px; border-left: 4px solid #b9f2ff;">
+            <h4 style="margin: 0 0 10px 0; color: #b9f2ff;">Kim Cương (DIAMOND)</h4>
+            <p style="margin: 0; color: #666; font-size: 14px;">
+                <strong>Ngưỡng:</strong> > 100 triệu VNĐ<br>
+                <strong>Đặc quyền:</strong> Ưu đãi độc quyền, hỗ trợ kỹ thuật riêng, quà tặng sinh nhật
+            </p>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,6 @@
+Brand: ASUS
+Model: ASUS ZenBook 14 OLED (UX3405)
+Color: Ponder Blue
+Angle: Side
+Description: Side profile perspective showcasing device thickness
+Source URL: https://dlcdnwebimgs.asus.com/gain/e83f2ab1-5fc0-4e3e-8475-12b582e0717b/

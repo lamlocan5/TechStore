@@ -1,0 +1,70 @@
+<div class="page-actions">
+    <button class="btn btn-primary" onclick="openAttributeModal()">Thêm thuộc tính</button>
+    <input type="text" class="search-input" placeholder="Tìm kiếm theo tên..." id="attribute-search">
+</div>
+<div class="table-container">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên khóa</th>
+                <th>Nhãn</th>
+                <th>Kiểu dữ liệu</th>
+                <th>Có thể tìm kiếm</th>
+                <th>Có thể lọc</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="attributes-table-body">
+            <tr><td colspan="7">Đang tải...</td></tr>
+        </tbody>
+    </table>
+</div>
+<div id="attributes-pagination"></div>
+
+<!-- Attribute Modal -->
+<div id="attribute-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="attribute-modal-title">Thêm thuộc tính</h2>
+            <span class="close" onclick="closeModal('attribute-modal')">&times;</span>
+        </div>
+        <div class="modal-body">
+            <form id="attribute-form">
+                <input type="hidden" id="attribute-id">
+                <div class="form-group">
+                    <label>Tên khóa *</label>
+                    <input type="text" id="attribute-key" required placeholder="VD: ram_gb, cpu_model">
+                </div>
+                <div class="form-group">
+                    <label>Nhãn *</label>
+                    <input type="text" id="attribute-label" required placeholder="VD: RAM (GB)">
+                </div>
+                <div class="form-group">
+                    <label>Kiểu dữ liệu *</label>
+                    <select id="attribute-datatype" required>
+                        <option value="TEXT">TEXT</option>
+                        <option value="INT">INT</option>
+                        <option value="DECIMAL">DECIMAL</option>
+                        <option value="BOOL">BOOL</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="attribute-searchable"> Có thể tìm kiếm
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="attribute-facetable"> Có thể lọc
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeModal('attribute-modal')">Hủy</button>
+            <button class="btn btn-primary" onclick="saveAttribute()">Lưu</button>
+        </div>
+    </div>
+</div>
+

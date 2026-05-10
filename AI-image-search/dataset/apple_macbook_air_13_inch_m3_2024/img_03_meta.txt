@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Air 13-inch (M3, 2024)
+Color: Sky Blue
+Angle: Top view
+Description: Front and top view in Sky Blue color
+Source URL: https://www.apple.com/v/macbook-air/w/images/overview/design/color/design_top_skyblue__eepkvlvjzcia_large.jpg

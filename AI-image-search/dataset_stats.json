@@ -1,0 +1,4090 @@
+{
+  "summary": {
+    "total_products": 508,
+    "total_images": 3924,
+    "total_size_mb": 128.83
+  },
+  "file_formats": {
+    ".jpg": 3882,
+    ".png": 42
+  },
+  "size_distribution": {
+    "small": 3886,
+    "medium": 32,
+    "large": 4,
+    "xlarge": 2
+  },
+  "products": [
+    {
+      "name": "apple-macbook-air-15-m2-8gb-256gb-ssd",
+      "images": 5,
+      "size_mb": 0.1436176300048828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple-macbook-air-m2-2022-13-inch-16gb-256gb-ssd",
+      "images": 7,
+      "size_mb": 0.49602508544921875,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple-macbook-air-m2-2022-13-inch-8gb-256gb-ssd",
+      "images": 6,
+      "size_mb": 0.1514263153076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple-macbook-pro-13-m2-2022-8gb-512gb-ssd",
+      "images": 7,
+      "size_mb": 0.10566139221191406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple-macbook-pro-14-2-m4-12",
+      "images": 8,
+      "size_mb": 0.10998916625976562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple-macbook-pro-14-inch-m3-8gb-512gb-ssd",
+      "images": 5,
+      "size_mb": 0.07303619384765625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple_macbook_air_13_inch_m3_2024",
+      "images": 4,
+      "size_mb": 0.6645269393920898,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple_macbook_air_15_inch_m3_2024",
+      "images": 2,
+      "size_mb": 0.24327754974365234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "apple_macbook_pro_14_inch_m4m5_2024_2025",
+      "images": 4,
+      "size_mb": 0.2306356430053711,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "aptop-acer-swift-x-14-ai-sfx14-72g-708x-",
+      "images": 7,
+      "size_mb": 0.23017215728759766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "asus_asus_zenbook_14_oled_ux3405",
+      "images": 4,
+      "size_mb": 6.487336158752441,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "asus_rog_zephyrus_g14_2024",
+      "images": 1,
+      "size_mb": 1.534541130065918,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "dell_dell_xps_14_9440",
+      "images": 1,
+      "size_mb": 3.6725425720214844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "hp-victus-16-e1107ax-7c140pa",
+      "images": 6,
+      "size_mb": 0.3238840103149414,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-14-ai-a14-52m-585y",
+      "images": 13,
+      "size_mb": 0.45270633697509766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-14-ai-a14-52m-71yq",
+      "images": 13,
+      "size_mb": 0.45389556884765625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-16-ai-a16-71m-71u7",
+      "images": 6,
+      "size_mb": 0.19884967803955078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-5-a514-56p-55k5-nx-khrsv-003-i5-1335u-xam",
+      "images": 7,
+      "size_mb": 0.1854076385498047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-5-a514-56p-742f-nx-khrsv-005-i7-1355u-xam",
+      "images": 13,
+      "size_mb": 0.4821634292602539,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-5-a515-58p-702q",
+      "images": 8,
+      "size_mb": 0.19937801361083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-5-a515-58p-9841-i9-13900h-xam",
+      "images": 8,
+      "size_mb": 0.19937801361083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-go-14-ai-ag14-71m-57wr",
+      "images": 6,
+      "size_mb": 0.22518634796142578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-go-14-ai-ag14-71m-7681",
+      "images": 6,
+      "size_mb": 0.22518634796142578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-14-al14-51p-35qd",
+      "images": 7,
+      "size_mb": 0.21151161193847656,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-14-al14-52m-32kv",
+      "images": 7,
+      "size_mb": 0.22022342681884766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-14-al14-71p-55p9",
+      "images": 6,
+      "size_mb": 0.2294168472290039,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-15-al15-42p-r08m",
+      "images": 7,
+      "size_mb": 0.2068767547607422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-15-al15-71p-517d",
+      "images": 7,
+      "size_mb": 0.19806957244873047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-15-al15-72p-581v",
+      "images": 6,
+      "size_mb": 0.21727943420410156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-16-ai-al16-71p-5674",
+      "images": 13,
+      "size_mb": 0.4427652359008789,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-16-ai-al16-71p-71wu",
+      "images": 6,
+      "size_mb": 0.23496246337890625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-16-al16-51p-72s2-i7-1255u-xam",
+      "images": 7,
+      "size_mb": 0.20707321166992188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-16-g2-al16-52p-76du",
+      "images": 7,
+      "size_mb": 0.21122360229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-aspire-lite-16-gen-2-al16-52p-572a",
+      "images": 7,
+      "size_mb": 0.21122360229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-aspire-7-a715-59g-57tu",
+      "images": 13,
+      "size_mb": 0.5035266876220703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-aspire-7-a715-59g-73lb",
+      "images": 13,
+      "size_mb": 0.505518913269043,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-aspire-7-a715-76g-5806",
+      "images": 13,
+      "size_mb": 0.48914337158203125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-nitro-16-ai-propanel-an16s-61-r5f4",
+      "images": 7,
+      "size_mb": 0.2130270004272461,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-nitro-v-15-propanel-anv15-51-73uu",
+      "images": 12,
+      "size_mb": 0.44754505157470703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-nitro-v-propanel-anv15-41-r0y4",
+      "images": 8,
+      "size_mb": 0.19950294494628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-nitro-v-propanel-anv15-52-59aa",
+      "images": 7,
+      "size_mb": 0.16991710662841797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-nitro-v-propanel-anv15-52-72bm",
+      "images": 14,
+      "size_mb": 0.7482366561889648,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-18-ai-ph18-73-93p0",
+      "images": 15,
+      "size_mb": 0.5645971298217773,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-18-ai-ph18-73-98aq",
+      "images": 8,
+      "size_mb": 0.23723602294921875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-neo-16-ai-phn16-73-98s4",
+      "images": 7,
+      "size_mb": 0.24383926391601562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-neo-16-phn16-72-950p",
+      "images": 14,
+      "size_mb": 0.521728515625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms",
+      "images": 8,
+      "size_mb": 0.2293567657470703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-gaming-predator-helios-phn16-73-757w",
+      "images": 7,
+      "size_mb": 0.24383926391601562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-lite-16-nl16-71g-56wq",
+      "images": 7,
+      "size_mb": 0.14836502075195312,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-lite-16-nl16-71g-71uj",
+      "images": 15,
+      "size_mb": 0.44539451599121094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-15-propanel-anv15-41-r7ap",
+      "images": 13,
+      "size_mb": 0.4940786361694336,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-15-propanel-anv15-41-r7cr",
+      "images": 8,
+      "size_mb": 0.19950294494628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-15-propanel-anv15-51-56d5",
+      "images": 13,
+      "size_mb": 0.5535621643066406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-15-propanel-anv15-51-76b9",
+      "images": 13,
+      "size_mb": 0.5502347946166992,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-16-ai-propanel-anv16s-61-r0b8",
+      "images": 7,
+      "size_mb": 0.21866130828857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-16-ai-propanel-anv16s-61-r9zv",
+      "images": 7,
+      "size_mb": 0.21866130828857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-16-propanel-anv16-41-r36y",
+      "images": 14,
+      "size_mb": 0.5435886383056641,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-16-propanel-anv16-41-r6zy",
+      "images": 14,
+      "size_mb": 0.4859886169433594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-nitro-v-anv15-51-91t5-i9-13900h-den",
+      "images": 14,
+      "size_mb": 0.6208286285400391,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-predator-helios-neo-14",
+      "images": 14,
+      "size_mb": 0.5235061645507812,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-predator-helios-neo-16s-ai-phn16s-71-94t0",
+      "images": 8,
+      "size_mb": 0.2293567657470703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-14-ai-oled-sf14-51-53p9",
+      "images": 14,
+      "size_mb": 0.4592142105102539,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-14-ai-oled-sf14-51-75vp",
+      "images": 14,
+      "size_mb": 0.4592142105102539,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-go-14-ai-oled-sfg14-73-75ym",
+      "images": 17,
+      "size_mb": 0.5911731719970703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-go-14-sfg14-41-r251",
+      "images": 9,
+      "size_mb": 0.27481651306152344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-go-ai-2024-gen-2-sfg14-73-71zx-ultra-7-155h-bac",
+      "images": 17,
+      "size_mb": 0.5857429504394531,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-go-ai-oled-sfg14-73-57fz-ultra-5-125h-bac",
+      "images": 17,
+      "size_mb": 0.5860967636108398,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-lite-14-ai-sfl14-51m-78xz",
+      "images": 7,
+      "size_mb": 0.23348236083984375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-lite-14-sfl14-51m-56hs",
+      "images": 7,
+      "size_mb": 0.23348236083984375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-x-14-ai-sfx14-72g-79uw",
+      "images": 7,
+      "size_mb": 0.23017215728759766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-acer-swift-x-14-oled-sfx14-72g-77f9",
+      "images": 8,
+      "size_mb": 0.22950363159179688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-aspire-lite-15-al15-41p-r3u5",
+      "images": 6,
+      "size_mb": 0.14542770385742188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-b3405cca-ly0077w",
+      "images": 7,
+      "size_mb": 0.1269369125366211,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-b3405cca-ly0080w",
+      "images": 7,
+      "size_mb": 0.1269369125366211,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1403cva-i308256-63w-i3-1315u-xam",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1403cva-i516-63ws",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1403cva-i716-63ws-i7-13620h-xam",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1403cva-s61134w",
+      "images": 9,
+      "size_mb": 0.16878604888916016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1403cva-s61261w",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1503cva-i308256-63w",
+      "images": 6,
+      "size_mb": 0.12099742889404297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1503cva-i516-50w",
+      "images": 6,
+      "size_mb": 0.12099742889404297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1503cva-i516-63ws-i5-13420h-xam",
+      "images": 6,
+      "size_mb": 0.12099742889404297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1503cva-i716-63ws",
+      "images": 6,
+      "size_mb": 0.12099742889404297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1-p1503cva-s71559w",
+      "images": 7,
+      "size_mb": 0.15703392028808594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1403cva-i516-50w",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p1403cva-i716-50w",
+      "images": 8,
+      "size_mb": 0.13234806060791016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p3-p3405cva-nz0027w",
+      "images": 5,
+      "size_mb": 0.09375762939453125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p3-p3405cva-nz0077w",
+      "images": 5,
+      "size_mb": 0.09375762939453125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p3-p3605cva-pl0042w",
+      "images": 5,
+      "size_mb": 0.09285354614257812,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p3-p3605cva-pl0047w",
+      "images": 5,
+      "size_mb": 0.09285354614257812,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-expertbook-p5-p5405csa-nz0016w",
+      "images": 8,
+      "size_mb": 0.1815958023071289,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-k3607vj-rp106w",
+      "images": 15,
+      "size_mb": 0.5843935012817383,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-k3607vu-rp280w",
+      "images": 7,
+      "size_mb": 0.2228231430053711,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vh-rp024w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vh-rp025w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vm-rp044w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vu-rp216w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vu-rp290w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-v16-v3607vu-rp343w",
+      "images": 8,
+      "size_mb": 0.19569110870361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-gaming-vivobook-16x-k3605vc-rp431w",
+      "images": 7,
+      "size_mb": 0.1542510986328125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-flow-z13-gz302ea-ru145ws",
+      "images": 9,
+      "size_mb": 0.15546035766601562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g614ju-n3480w",
+      "images": 8,
+      "size_mb": 0.22080421447753906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615jhr-s5069w",
+      "images": 7,
+      "size_mb": 0.19138813018798828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615jmr-s5155w",
+      "images": 7,
+      "size_mb": 0.19138813018798828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615jpr-s5107w",
+      "images": 7,
+      "size_mb": 0.19138813018798828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615lr-s5289w",
+      "images": 9,
+      "size_mb": 0.2806129455566406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615lw-s5135w",
+      "images": 9,
+      "size_mb": 0.2806129455566406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g16-g615lw-s5219w",
+      "images": 9,
+      "size_mb": 0.2806129455566406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g18-g815jpr-s9057w",
+      "images": 7,
+      "size_mb": 0.21073341369628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g18-g815lp-s9102w",
+      "images": 7,
+      "size_mb": 0.21073341369628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g18-g815lr-s9088w",
+      "images": 7,
+      "size_mb": 0.21073341369628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g18-g815lr-s9211w",
+      "images": 7,
+      "size_mb": 0.21073341369628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-g18-g815lw-s9164w",
+      "images": 7,
+      "size_mb": 0.21073341369628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-16-g635lw-rw175w-core-ultra-9-275hx-den",
+      "images": 9,
+      "size_mb": 0.30647945404052734,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-16-g635lx-rw192w",
+      "images": 8,
+      "size_mb": 0.22852420806884766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-18-g835lr-sa130w",
+      "images": 8,
+      "size_mb": 0.21148300170898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-18-g835lw-sa172w-core-ultra-9-275hx-den",
+      "images": 14,
+      "size_mb": 0.5548114776611328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-18-g835lw-sa193w",
+      "images": 8,
+      "size_mb": 0.21148300170898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-strix-scar-18-g835lx-sa208w",
+      "images": 8,
+      "size_mb": 0.21148300170898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g14-ga403wm-qs051ws",
+      "images": 9,
+      "size_mb": 0.2869138717651367,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g14-ga403wm-qs058ws",
+      "images": 7,
+      "size_mb": 0.13856124877929688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g14-ga403wp-qs045ws",
+      "images": 9,
+      "size_mb": 0.2869138717651367,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g14-ga403wr-qs156ws",
+      "images": 9,
+      "size_mb": 0.2869138717651367,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g14-ga403ww-qs136ws",
+      "images": 9,
+      "size_mb": 0.2869138717651367,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g16-gu605cm-qr078w",
+      "images": 6,
+      "size_mb": 0.13385295867919922,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g16-gu605cr-qr107w",
+      "images": 6,
+      "size_mb": 0.13385295867919922,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g16-gu605cx-qr083w-core-ultra-9-285h-xam",
+      "images": 7,
+      "size_mb": 0.4031362533569336,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-rog-zephyrus-g16-gu605cx-qr147w",
+      "images": 6,
+      "size_mb": 0.13385295867919922,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-a14-fa401km-rg010ws",
+      "images": 5,
+      "size_mb": 0.12047958374023438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-a14-fa401wv-rg062ws",
+      "images": 8,
+      "size_mb": 0.28476428985595703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-a15-fa506ncg-hn184w",
+      "images": 8,
+      "size_mb": 0.2063007354736328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx607vj-rl034w",
+      "images": 6,
+      "size_mb": 0.18996715545654297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx607vu-rl045w",
+      "images": 6,
+      "size_mb": 0.18996715545654297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx608jh-rv039w",
+      "images": 14,
+      "size_mb": 0.58477783203125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx608jhr-rv037w",
+      "images": 14,
+      "size_mb": 0.5843429565429688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx608jmr-rv048w",
+      "images": 14,
+      "size_mb": 0.5829801559448242,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-tuf-gaming-f16-fx608jpr-rv044w",
+      "images": 14,
+      "size_mb": 0.5847311019897461,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-14-a1407ca-ly008ws",
+      "images": 7,
+      "size_mb": 0.13581371307373047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-14-x1404va-eb509w",
+      "images": 7,
+      "size_mb": 0.16086196899414062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-14-x1405va-ly623w",
+      "images": 6,
+      "size_mb": 0.140289306640625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-14-x1405va-ly624w",
+      "images": 6,
+      "size_mb": 0.140289306640625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-oled-a1505va-l1688w",
+      "images": 7,
+      "size_mb": 0.19987773895263672,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-oled-a1505va-ma505w",
+      "images": 8,
+      "size_mb": 0.17889022827148438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-x1502va-bq885w",
+      "images": 7,
+      "size_mb": 0.16007518768310547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-x1502va-bq886w",
+      "images": 7,
+      "size_mb": 0.16901493072509766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-x1504va-bq165w",
+      "images": 8,
+      "size_mb": 0.1756000518798828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-15-x1504va-bq2076w",
+      "images": 8,
+      "size_mb": 0.1756000518798828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-16-a1607qa-mb067w",
+      "images": 7,
+      "size_mb": 0.12444686889648438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-16-k3607vj-rp131w-core-5-210h-den",
+      "images": 14,
+      "size_mb": 0.5486364364624023,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-16-m1607ka-mb091ws",
+      "images": 7,
+      "size_mb": 0.11701202392578125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-16x-k3605vc-rp491w",
+      "images": 7,
+      "size_mb": 0.1542510986328125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-a1405va-km095w-i5-13500h-bac",
+      "images": 13,
+      "size_mb": 0.43091583251953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-go-14-e1404fa-eb482w",
+      "images": 7,
+      "size_mb": 0.17218971252441406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-go-14-e1404fa-nk177w-amd-ryzen-5-7520u",
+      "images": 8,
+      "size_mb": 0.7056760787963867,
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-go-15-e1504fa-bq1150w",
+      "images": 7,
+      "size_mb": 0.16578292846679688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-14-m5406wa-pp071ws-ryzen-ai-9-hx-370-bac",
+      "images": 14,
+      "size_mb": 0.45617103576660156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-14-s3407va-ly046w",
+      "images": 7,
+      "size_mb": 0.14109325408935547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-16-oled-m5606ka-ri016ws",
+      "images": 8,
+      "size_mb": 0.15778160095214844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-16-s5606ca-ri114ws",
+      "images": 8,
+      "size_mb": 0.15529537200927734,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-16-s5606ca-ri115ws",
+      "images": 7,
+      "size_mb": 0.14670372009277344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-s3407ca-ly095ws",
+      "images": 15,
+      "size_mb": 0.5081300735473633,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s-s3407ca-ly096ws",
+      "images": 14,
+      "size_mb": 0.48032188415527344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-m3407ka-sf032ws",
+      "images": 6,
+      "size_mb": 0.13608169555664062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-m3407ka-sf034ws",
+      "images": 6,
+      "size_mb": 0.13608169555664062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-oled-m5406ka-pp134ws",
+      "images": 6,
+      "size_mb": 0.10382843017578125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-oled-s5406sa-pp059ws",
+      "images": 7,
+      "size_mb": 0.14737224578857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-oled-s5406sa-pp060ws",
+      "images": 7,
+      "size_mb": 0.14737224578857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-s3407ca-ly068ws",
+      "images": 8,
+      "size_mb": 0.17495346069335938,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-s3407qa-sf043ws",
+      "images": 7,
+      "size_mb": 0.14277362823486328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-s3407va-ly053w",
+      "images": 7,
+      "size_mb": 0.14109325408935547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s14-s3407va-ly146w",
+      "images": 7,
+      "size_mb": 0.14109325408935547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s16-s3607ca-sh082ws",
+      "images": 6,
+      "size_mb": 0.12456989288330078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s16-s3607ca-sh083ws",
+      "images": 6,
+      "size_mb": 0.12456989288330078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s16-s3607qa-sh040ws",
+      "images": 6,
+      "size_mb": 0.12456989288330078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s16-s3607va-rp056ws",
+      "images": 5,
+      "size_mb": 0.13089275360107422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-s16-s5606ca-ri171ws",
+      "images": 6,
+      "size_mb": 0.15015029907226562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-vivobook-x1404va-nk394w",
+      "images": 7,
+      "size_mb": 0.16086196899414062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-um3406ka-pp113ws",
+      "images": 6,
+      "size_mb": 0.11860370635986328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-um3406ka-pp590ws",
+      "images": 6,
+      "size_mb": 0.11860370635986328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-ux3405ca-pz187ws",
+      "images": 7,
+      "size_mb": 0.13750743865966797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-ux3405ca-pz188ws",
+      "images": 7,
+      "size_mb": 0.13750743865966797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-ux3405ca-pz204ws",
+      "images": 6,
+      "size_mb": 0.12227535247802734,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-14-ux3405ca-pz368ws",
+      "images": 6,
+      "size_mb": 0.12227535247802734,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-duo-ux8406ca-pz109ws",
+      "images": 12,
+      "size_mb": 0.33552074432373047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-s-14-ux5406sa-pv140ws",
+      "images": 15,
+      "size_mb": 0.4853801727294922,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-s-16-oled-um5606ka-rk113ws",
+      "images": 12,
+      "size_mb": 0.3840923309326172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-asus-zenbook-s16-um5606ka-rk127ws",
+      "images": 6,
+      "size_mb": 0.10772228240966797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-71071928",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-71073959",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-cph99",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-cph997",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-dc5i7748w1",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15250-i7u161w11slu",
+      "images": 6,
+      "size_mb": 0.1334543228149414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15255-dc5r5802w1",
+      "images": 7,
+      "size_mb": 0.1647481918334961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-15-dc15255-x9ym41",
+      "images": 7,
+      "size_mb": 0.1647481918334961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-16-dc16250-71076092",
+      "images": 9,
+      "size_mb": 0.21502399444580078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-16-dc16250-c7u161w11blu",
+      "images": 9,
+      "size_mb": 0.21502399444580078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-16-dc16251-dc6c7557w1",
+      "images": 7,
+      "size_mb": 0.2032489776611328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-16-plus-db16250-db6u5387w1",
+      "images": 8,
+      "size_mb": 0.18722152709960938,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-14-5440-7fn5j-core-7-150u-xanh",
+      "images": 14,
+      "size_mb": 0.4945831298828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3520-25p2312-i5-1235u",
+      "images": 5,
+      "size_mb": 0.20021438598632812,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3530-n3530-i3u085w11slu-i3-1305u-bac",
+      "images": 12,
+      "size_mb": 0.3828315734863281,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3530-n3530-i5u165w11slu",
+      "images": 7,
+      "size_mb": 0.16378402709960938,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3530-n3530-i7u161w11slu",
+      "images": 7,
+      "size_mb": 0.17165851593017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3530-n5i5407w1",
+      "images": 6,
+      "size_mb": 0.40355491638183594,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-15-3530-p16wd21",
+      "images": 7,
+      "size_mb": 0.17165851593017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-16-5640-71053723-core-5-120u-xanh",
+      "images": 8,
+      "size_mb": 0.19275856018066406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-3520-n5i5352w1",
+      "images": 5,
+      "size_mb": 0.20021438598632812,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-3530-n5i7421w1",
+      "images": 7,
+      "size_mb": 0.16378402709960938,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-5440-g14-n4i5211w1-core-5-120u-xanh",
+      "images": 8,
+      "size_mb": 0.17086124420166016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-5440-g14-n4i7204w1-core-7-150u-xanh",
+      "images": 14,
+      "size_mb": 0.4958658218383789,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-5441-5mnk1",
+      "images": 8,
+      "size_mb": 0.17876625061035156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-5441-n4o10441w1",
+      "images": 8,
+      "size_mb": 0.17876625061035156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-inspiron-t7430-n7430i58w1",
+      "images": 7,
+      "size_mb": 0.19177913665771484,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-latitude-3450-l3450-1335u-16512w-i5-1335u-den",
+      "images": 8,
+      "size_mb": 0.1797466278076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-latitude-3450-l3450-1355u-16512w-umc",
+      "images": 8,
+      "size_mb": 0.1797466278076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-latitude-5350-l5350-165u-16512w",
+      "images": 6,
+      "size_mb": 0.12653160095214844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-latitude-5450-42lt545001",
+      "images": 8,
+      "size_mb": 0.1761493682861328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-pro-13-plus-pb13250-236v-16512w",
+      "images": 8,
+      "size_mb": 0.17227745056152344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-pro-14-pc14250-235u-16512w",
+      "images": 8,
+      "size_mb": 0.16795921325683594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-pro-14-plus-pb14250-235u-16512w",
+      "images": 8,
+      "size_mb": 0.17523574829101562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-xps-9350-pp9h1",
+      "images": 9,
+      "size_mb": 0.17627429962158203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-dell-xps-9350-xps9350-u5ia165w11gr-fp-core-ultra-5-226v-graphite",
+      "images": 9,
+      "size_mb": 0.17627429962158203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-aorus-16x-asg-53vnc94sh",
+      "images": 15,
+      "size_mb": 0.7246723175048828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-aorus-master-16-byhc5vne64sh",
+      "images": 8,
+      "size_mb": 0.24066829681396484,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-g6-kf-h3vn853kh",
+      "images": 12,
+      "size_mb": 0.4372224807739258,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-g6-mf-h2vn854kh",
+      "images": 12,
+      "size_mb": 0.4387636184692383,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-g6x-9kg-43vn853sh",
+      "images": 9,
+      "size_mb": 0.2827033996582031,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-g6x-9mg-42vn853sh",
+      "images": 9,
+      "size_mb": 0.2827033996582031,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-gaming-a16-cmhh2vn893sh",
+      "images": 14,
+      "size_mb": 0.5755987167358398,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-gigabyte-gaming-a16-cmhi2vn893sh",
+      "images": 14,
+      "size_mb": 0.5877056121826172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-14-ep1005tu-9z2w0pa",
+      "images": 5,
+      "size_mb": 0.15554523468017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-14-ep1007tu-9z2w1pa-i7-150u",
+      "images": 5,
+      "size_mb": 0.15554523468017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-14-ep1009tu-9z2w2pa",
+      "images": 5,
+      "size_mb": 0.15554523468017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-14-ep1011tu-9z2w3pa-core-5-120u",
+      "images": 5,
+      "size_mb": 0.15554523468017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fc0086au-a6vv9pa",
+      "images": 14,
+      "size_mb": 0.49956417083740234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fc0656au-c81nhpa",
+      "images": 6,
+      "size_mb": 0.1482095718383789,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fd0083tu-8d736pa",
+      "images": 6,
+      "size_mb": 0.19324970245361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fd0235tu-9q970pa-i5-1334u-bac",
+      "images": 14,
+      "size_mb": 0.4967174530029297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fd0304tu-a2nl5pa",
+      "images": 14,
+      "size_mb": 0.4954690933227539,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fd1043tu-9z2w9pa-core-5-120u",
+      "images": 6,
+      "size_mb": 0.19324970245361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15-fd1045tu-9z2x1pa",
+      "images": 6,
+      "size_mb": 0.19324970245361328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-15s-fq5228tu-8u240pa-i3-1215u-xanh",
+      "images": 11,
+      "size_mb": 0.39093589782714844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-240-g9-ag2j7at",
+      "images": 13,
+      "size_mb": 0.4251394271850586,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-250-g10-a06f8pt",
+      "images": 5,
+      "size_mb": 0.12342357635498047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-250-g10-a06ffpt",
+      "images": 5,
+      "size_mb": 0.12342357635498047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-6-g1i-bq9n0pt",
+      "images": 5,
+      "size_mb": 0.13758373260498047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-6-g1i-bq9n5pt",
+      "images": 5,
+      "size_mb": 0.13758373260498047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-640-g11-a7lb1pt",
+      "images": 6,
+      "size_mb": 0.13391780853271484,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-ultra-g1i-ai-b9fe9pt",
+      "images": 5,
+      "size_mb": 0.17099571228027344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-ultra-g1q-b4py1pt",
+      "images": 6,
+      "size_mb": 0.13742733001708984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-x-g1a-14-ai-b9fe4pt",
+      "images": 5,
+      "size_mb": 0.13453006744384766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-x-g1a-14-ai-bc4n4at",
+      "images": 5,
+      "size_mb": 0.13453006744384766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-x360-1040-g11-am9h0pt",
+      "images": 7,
+      "size_mb": 0.16520309448242188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-elitebook-xflip-g1i-b9fn2pt",
+      "images": 6,
+      "size_mb": 0.2072134017944336,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-13-bf0114tu-7c0p0pa",
+      "images": 8,
+      "size_mb": 0.8715887069702148,
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-14-fa0047au-a19bppa",
+      "images": 5,
+      "size_mb": 0.10391521453857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-14-fa0093au-ay8u3pa",
+      "images": 5,
+      "size_mb": 0.10391521453857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-14-fc0086tu-a19bwpa",
+      "images": 5,
+      "size_mb": 0.10391521453857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-14-fc0155tu-ay8w3pa",
+      "images": 6,
+      "size_mb": 0.18726730346679688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-envy-x360-14-fc0156tu-ay8w4pa",
+      "images": 5,
+      "size_mb": 0.10391521453857422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-hp-probook-460-g11-a74mqpt",
+      "images": 6,
+      "size_mb": 0.1234445571899414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-14-fb0134tx-ay8v0pa",
+      "images": 5,
+      "size_mb": 0.1689300537109375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-am0127tx-bx8y0pa",
+      "images": 5,
+      "size_mb": 0.16153907775878906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-am0129tx-bx9d1pa",
+      "images": 5,
+      "size_mb": 0.16153907775878906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-am0176tx-bx9d3pa",
+      "images": 5,
+      "size_mb": 0.16153907775878906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-am0178tx-bx8y4pa",
+      "images": 5,
+      "size_mb": 0.16153907775878906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-am0180tx-bx8y6pa",
+      "images": 5,
+      "size_mb": 0.16153907775878906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-16-wf1139tx-a2ns1pa",
+      "images": 5,
+      "size_mb": 0.1809854507446289,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-max-16-16-ah0186tx-bx9s1pa",
+      "images": 6,
+      "size_mb": 0.22334575653076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-max-16-16-ah0212tx-c1wr1pa",
+      "images": 6,
+      "size_mb": 0.22334575653076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omen-max-16-16-ah0213tx-c1wr2pa",
+      "images": 6,
+      "size_mb": 0.22334575653076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omni-5-16-af1046tu-bz7q8pa",
+      "images": 5,
+      "size_mb": 0.11972236633300781,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omni-5-16-af1048tu-bz7q9pa",
+      "images": 5,
+      "size_mb": 0.11972236633300781,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-5-16-ag1066au-bz7s9pa",
+      "images": 5,
+      "size_mb": 0.1412038803100586,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-5-16-ag1067au-bz7u5pa",
+      "images": 5,
+      "size_mb": 0.1412038803100586,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-5-16-ag1068au-bz7t0pa",
+      "images": 5,
+      "size_mb": 0.1412038803100586,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-5-ai-16-af1052tu-c1mn6pa",
+      "images": 10,
+      "size_mb": 0.29822540283203125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-5-ai-16-af1054tu-c1mn8pa",
+      "images": 5,
+      "size_mb": 0.14911270141601562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-7-14-fr0033tu-c1mn2pa",
+      "images": 5,
+      "size_mb": 0.12028694152832031,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-7-16-az0038tu-c2cx1pa",
+      "images": 5,
+      "size_mb": 0.14854812622070312,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-7-aero-13-bg1083au-bz7r9pa",
+      "images": 5,
+      "size_mb": 0.1416187286376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-7-aero-13-bg1085au-bz7u6pa",
+      "images": 5,
+      "size_mb": 0.1416187286376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-7-aero-13-bg1087au-bz7s1pa",
+      "images": 5,
+      "size_mb": 0.1416187286376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-ultra-flip-14-fh0038tu-b2cp4pa",
+      "images": 13,
+      "size_mb": 0.42632198333740234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-ultra-flip-14-fh0040tu-b13vhpa",
+      "images": 6,
+      "size_mb": 0.16369152069091797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-ultra-flip-x360-14-fh0095tu-bz7s2pa",
+      "images": 6,
+      "size_mb": 0.16753768920898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-ultra-flip-x360-14-fh0097tu-bz7s3pa",
+      "images": 6,
+      "size_mb": 0.16753768920898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-x-14-fe1010qu-b53kbpa",
+      "images": 14,
+      "size_mb": 0.41215991973876953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-x-flip-14-fk0092au-bz7p5pa",
+      "images": 7,
+      "size_mb": 0.18731117248535156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-omnibook-x-flip-14-fm0076tu-bz7p6pa",
+      "images": 7,
+      "size_mb": 0.20616722106933594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-pavilion-15-eg3095tu-8c5l6pa-i5-1335u-bac",
+      "images": 5,
+      "size_mb": 0.5032796859741211,
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "name": "laptop-hp-pavilion-16-af0053tu-ay8c2pa",
+      "images": 5,
+      "size_mb": 0.13515663146972656,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-pavilion-16-af0055tu-ay8c4pa",
+      "images": 5,
+      "size_mb": 0.1322345733642578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-pavilion-x360-14-ek2017tu-9z2v5pa",
+      "images": 7,
+      "size_mb": 0.22705459594726562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-4-g1i-bq5b4pt",
+      "images": 5,
+      "size_mb": 0.11750602722167969,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g10-9h8u1pt-i3-1315u-bac",
+      "images": 7,
+      "size_mb": 0.15424728393554688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g10-9h8u3pt-i5-1335u-bac",
+      "images": 7,
+      "size_mb": 0.15424728393554688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g10-9h8u4pt-i5-1335u-bac",
+      "images": 7,
+      "size_mb": 0.15424728393554688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g10-9h8u7pt-i5-1340p-bac",
+      "images": 7,
+      "size_mb": 0.15424728393554688,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74b4pt",
+      "images": 6,
+      "size_mb": 0.1348876953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74b5pt",
+      "images": 12,
+      "size_mb": 0.35815906524658203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74b9pt",
+      "images": 6,
+      "size_mb": 0.1348876953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74bbpt",
+      "images": 6,
+      "size_mb": 0.1348876953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74bhpt",
+      "images": 13,
+      "size_mb": 0.4072599411010742,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74blpa",
+      "images": 6,
+      "size_mb": 0.1348876953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-440-g11-a74bmpt",
+      "images": 6,
+      "size_mb": 0.1348876953125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-450-g10-9h8v6pt",
+      "images": 6,
+      "size_mb": 0.1644744873046875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-460-g11-a74bypt-core-ultra-5-125h-bac",
+      "images": 6,
+      "size_mb": 0.1234445571899414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-probook-460-g11-a74c3pt",
+      "images": 6,
+      "size_mb": 0.1234445571899414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-spectre-x360-14-eu0051tu-a2nl3pa-core-ultra-7-155h",
+      "images": 8,
+      "size_mb": 0.3066377639770508,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-15-fa2731tx-b85lnpa",
+      "images": 5,
+      "size_mb": 0.17195987701416016,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-15-fb3115ax-bx9c9pa",
+      "images": 6,
+      "size_mb": 0.18735122680664062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-15-fb3116ax-bx8u4pa",
+      "images": 6,
+      "size_mb": 0.18735122680664062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0128tx-8c5n3pa-i5-13450hx-den",
+      "images": 5,
+      "size_mb": 0.19925785064697266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0228tx-9q979pa-i5-13500h-den",
+      "images": 5,
+      "size_mb": 0.1988058090209961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0298tx-ae0n5pa",
+      "images": 5,
+      "size_mb": 0.18924808502197266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0302tx-ae0n9pa",
+      "images": 5,
+      "size_mb": 0.19925785064697266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0369tx-ay8y2pa",
+      "images": 5,
+      "size_mb": 0.19925785064697266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-r0378tx-ay8z4pa",
+      "images": 14,
+      "size_mb": 0.46807193756103516,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-s0077ax-8c5n6pa-amd-ryzen-7-7840hs-den",
+      "images": 5,
+      "size_mb": 0.19925785064697266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-s0140ax-9q987pa-amd-ryzen-7-7840hs-den",
+      "images": 5,
+      "size_mb": 0.19925785064697266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-hp-victus-16-s1149ax-az0d4pa",
+      "images": 11,
+      "size_mb": 0.35135459899902344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-flex-5-14abr8-82xx00fvvn",
+      "images": 9,
+      "size_mb": 0.1881999969482422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-flex-5-14abr8-82xx00fwvn",
+      "images": 9,
+      "size_mb": 0.1881999969482422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14arp10-83k6000avn",
+      "images": 5,
+      "size_mb": 0.1527261734008789,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k00007vn",
+      "images": 5,
+      "size_mb": 0.17545223236083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k00008vn",
+      "images": 5,
+      "size_mb": 0.17545223236083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k00009vn",
+      "images": 5,
+      "size_mb": 0.17545223236083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k0000avn",
+      "images": 5,
+      "size_mb": 0.17545223236083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k0000bvn",
+      "images": 5,
+      "size_mb": 0.17545223236083984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k0004jvn",
+      "images": 15,
+      "size_mb": 0.4465761184692383,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-14irh10-83k1000jvn",
+      "images": 4,
+      "size_mb": 0.14091110229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-15abr8-82xm00mcvn",
+      "images": 13,
+      "size_mb": 0.3878450393676758,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-15abr8-82xm00mdvn",
+      "images": 13,
+      "size_mb": 0.3874626159667969,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-15irh10-83k1000gvn",
+      "images": 4,
+      "size_mb": 0.14091110229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-15irh10-83k1002nvn-i5-13420h-xam",
+      "images": 4,
+      "size_mb": 0.14091110229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-15irh10-83k1002pvn",
+      "images": 4,
+      "size_mb": 0.14091110229492188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-16arp10-83k80016vn",
+      "images": 7,
+      "size_mb": 0.18604564666748047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-16irh10-83k20001vn",
+      "images": 4,
+      "size_mb": 0.1469268798828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-16irh10-83k20002vn",
+      "images": 4,
+      "size_mb": 0.1469268798828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-3-16irh10-83k20004vn",
+      "images": 4,
+      "size_mb": 0.1469268798828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-14akp10-83hx001jvn",
+      "images": 6,
+      "size_mb": 0.1280956268310547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-14iah10-83nc0016vn",
+      "images": 4,
+      "size_mb": 0.06998825073242188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-14iah10-83nc001avn",
+      "images": 4,
+      "size_mb": 0.06998825073242188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-14q8x9-83hl005avn",
+      "images": 7,
+      "size_mb": 0.13640880584716797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-oled-15arp10-83j3001dvn",
+      "images": 14,
+      "size_mb": 0.5355300903320312,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-ideapad-slim-5-oled-15arp10-83j3002svn-amd-ryzen-7-7735hs-xam",
+      "images": 14,
+      "size_mb": 0.5313873291015625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15ahp10-83m0002xvn",
+      "images": 7,
+      "size_mb": 0.16954612731933594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15ahp10-83m0002yvn",
+      "images": 7,
+      "size_mb": 0.16954612731933594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15ahp10-83m00030vn",
+      "images": 7,
+      "size_mb": 0.16954612731933594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15iax10-83f0003bvn",
+      "images": 7,
+      "size_mb": 0.16840839385986328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15iax10-83f0003cvn",
+      "images": 7,
+      "size_mb": 0.16840839385986328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15irx10-83ly004gvn",
+      "images": 13,
+      "size_mb": 0.4984626770019531,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15irx10-83ly00a7vn",
+      "images": 13,
+      "size_mb": 0.49958324432373047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15irx10-83ly00hqvn",
+      "images": 9,
+      "size_mb": 0.22533226013183594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-5-15irx10-83ly00hwvn",
+      "images": 9,
+      "size_mb": 0.22533226013183594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-7-16iax10-83ky001uvn",
+      "images": 8,
+      "size_mb": 0.17250347137451172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-7-16iax10-83ky001vvn",
+      "images": 8,
+      "size_mb": 0.17250347137451172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-pro-5-16iax10-83f3002gvn",
+      "images": 6,
+      "size_mb": 0.17493534088134766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-pro-5-16iax10-83f3003vvn",
+      "images": 6,
+      "size_mb": 0.17493534088134766,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-pro-7-16iax10h-83f5008vvn",
+      "images": 13,
+      "size_mb": 0.5454778671264648,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-pro-7-16iax10h-83f5008wvn",
+      "images": 7,
+      "size_mb": 0.19664859771728516,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-legion-pro-7-16irx9h-83de001nvn",
+      "images": 7,
+      "size_mb": 0.2180614471435547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15ahp10-83jg0047vn",
+      "images": 8,
+      "size_mb": 0.1957530975341797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15arp9-83jc00lvvn",
+      "images": 7,
+      "size_mb": 0.1883716583251953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15arp9-83jc00m3vn",
+      "images": 7,
+      "size_mb": 0.1883716583251953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15iax9e-83lk0079vn-i5-12450hx-xam",
+      "images": 7,
+      "size_mb": 0.1871967315673828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15irx10-83je00pevn",
+      "images": 8,
+      "size_mb": 0.20986652374267578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15irx9-83dv013pvn",
+      "images": 13,
+      "size_mb": 0.6779193878173828,
+      "formats": [
+        ".png",
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15irx9-83dv017hvn",
+      "images": 7,
+      "size_mb": 0.1751394271850586,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-loq-15irx9-83dv01alvn",
+      "images": 8,
+      "size_mb": 0.18667221069335938,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkbook-14-g8-ial-21sj0070vn",
+      "images": 8,
+      "size_mb": 0.1828937530517578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkbook-14-gen-7-iml-21mr0072vn",
+      "images": 8,
+      "size_mb": 0.21341323852539062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkbook-16-g8-ial-21sk0070vn",
+      "images": 7,
+      "size_mb": 0.17553329467773438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkbook-16-gen-8-21sk0073vn",
+      "images": 7,
+      "size_mb": 0.17451763153076172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-cx9-14-gen-1-21qa006kvn",
+      "images": 6,
+      "size_mb": 0.1691427230834961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-cx9-14-gen-1-21qa006lvn",
+      "images": 6,
+      "size_mb": 0.1691427230834961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e14-gen-7-21sx002qva",
+      "images": 8,
+      "size_mb": 0.189544677734375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e14-gen-7-21sx002uvn",
+      "images": 8,
+      "size_mb": 0.189544677734375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e14-gen-7-21sx0032vn",
+      "images": 8,
+      "size_mb": 0.189544677734375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e14-gen-7-21t90023vn",
+      "images": 8,
+      "size_mb": 0.189544677734375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e16-g2-t-21ma004hvn-core-ultra-7-155u",
+      "images": 7,
+      "size_mb": 0.23222827911376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-e16-gen-2-21ma004jvn",
+      "images": 8,
+      "size_mb": 0.16117477416992188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t14-gen-6-21qc0007va",
+      "images": 8,
+      "size_mb": 0.2261056900024414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t14s-gen-5-21ls005yvn",
+      "images": 8,
+      "size_mb": 0.2261056900024414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t14s-gen-5-21ls0062vn",
+      "images": 8,
+      "size_mb": 0.2261056900024414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t14s-gen-6-21r10005vn",
+      "images": 8,
+      "size_mb": 0.2261056900024414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t14s-gen-6-21r10008vn",
+      "images": 8,
+      "size_mb": 0.2261056900024414,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-t16-gen-4-21qe0009vn",
+      "images": 6,
+      "size_mb": 0.1518392562866211,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x1-carbon-gen-13-21nx0037vn",
+      "images": 6,
+      "size_mb": 0.15892696380615234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x1-carbon-gen-13-21nx003avn",
+      "images": 6,
+      "size_mb": 0.15892696380615234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x1-carbon-gen-13-21nx003bvn",
+      "images": 6,
+      "size_mb": 0.15892696380615234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x1-carbon-gen-13-21nx003dvn",
+      "images": 6,
+      "size_mb": 0.15892696380615234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x13-gen-5-21lu004nvn",
+      "images": 6,
+      "size_mb": 0.1754446029663086,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x13-gen-5-21lu004svn-",
+      "images": 6,
+      "size_mb": 0.1754446029663086,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-14-gen-1-21qa006evn",
+      "images": 6,
+      "size_mb": 0.1691427230834961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-14-gen-1-21qa006gvn",
+      "images": 6,
+      "size_mb": 0.1691427230834961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-14-gen-1-21qa006hvn",
+      "images": 6,
+      "size_mb": 0.1691427230834961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-15-gen-1-21q6004yvn",
+      "images": 9,
+      "size_mb": 0.19379425048828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-15-gen-1-21q60051vn",
+      "images": 9,
+      "size_mb": 0.19379425048828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-15-gen-1-21q60052vn",
+      "images": 8,
+      "size_mb": 0.2013540267944336,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-15-gen-1-21q60054vn",
+      "images": 9,
+      "size_mb": 0.19379425048828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-thinkpad-x9-15-gen-1-21q60055vn",
+      "images": 9,
+      "size_mb": 0.19379425048828125,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-v14-g4-iru-83a000fqvn",
+      "images": 8,
+      "size_mb": 0.19884681701660156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-v15-g4-iru-83a100pmvn",
+      "images": 8,
+      "size_mb": 0.20175838470458984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-7-2-in-1-14ill10-83jq0093vn",
+      "images": 7,
+      "size_mb": 0.19458580017089844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-7-2-in-1-14iml9-83dj00h9vn",
+      "images": 8,
+      "size_mb": 0.2102508544921875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-7-2-in-1-83dj00h8vn",
+      "images": 8,
+      "size_mb": 0.2102508544921875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-9-2in1-14ill10-83lc002lvn",
+      "images": 7,
+      "size_mb": 0.1997823715209961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-book-9-13imu9-83ff001svn-ultra-7-155h",
+      "images": 9,
+      "size_mb": 0.31021595001220703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-pro-7-oled-14iah10-83kf002bvn",
+      "images": 8,
+      "size_mb": 0.20644664764404297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14ill10-83jx0081vn",
+      "images": 7,
+      "size_mb": 0.1877460479736328,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14ill10-oled",
+      "images": 8,
+      "size_mb": 0.25322437286376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14ill10-oled-83jx0086vn",
+      "images": 8,
+      "size_mb": 0.25322437286376953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14imh9-83cv00ajvn",
+      "images": 7,
+      "size_mb": 0.21140289306640625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14imh9-83cv00d8vn",
+      "images": 7,
+      "size_mb": 0.21140289306640625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lenovo-yoga-slim-7-14imh9-83cv00dkvn",
+      "images": 7,
+      "size_mb": 0.21140289306640625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-14-2024-14t90s-g-ah55a5-ultra-5-125h-den",
+      "images": 8,
+      "size_mb": 0.19840621948242188,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-15-2024-15z90st-g-ah75a5",
+      "images": 8,
+      "size_mb": 0.2373027801513672,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-16-2024-16z90sp-k-ah75a5",
+      "images": 9,
+      "size_mb": 0.18118667602539062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-2024-14z90s-g-ah55a5",
+      "images": 10,
+      "size_mb": 0.20483112335205078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-2024-14z90s-g-ah75a5",
+      "images": 10,
+      "size_mb": 0.20483112335205078,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-2024-16z90s-g-ah76a5",
+      "images": 11,
+      "size_mb": 0.2835121154785156,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-2024-17z90s-g-ah78a5",
+      "images": 9,
+      "size_mb": 0.1857776641845703,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-lg-gram-book-15u50t-g-av56a5",
+      "images": 15,
+      "size_mb": 0.47972679138183594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwfkg-035vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwfkg-036vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwfkg-070vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwfkg-078vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwgkg-034vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwgkg-071vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-crosshair-16-hx-ai-d2xwgkg-072vn",
+      "images": 6,
+      "size_mb": 0.20210742950439453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-14-a13udx-099vn",
+      "images": 9,
+      "size_mb": 0.24851036071777344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-14-a13ve-090vn-i7-13620h-den",
+      "images": 9,
+      "size_mb": 0.24851036071777344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-15-a13uc-2082vn",
+      "images": 8,
+      "size_mb": 0.23100948333740234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-15-a13uc-861vn-i5-13420h-den",
+      "images": 15,
+      "size_mb": 0.6147422790527344,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-15-ai-a1ve-053vn",
+      "images": 5,
+      "size_mb": 0.14154338836669922,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-15-b2rwfkg-047vn",
+      "images": 6,
+      "size_mb": 0.1885385513305664,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-cyborg-15-b2rwfkg-048vn",
+      "images": 6,
+      "size_mb": 0.18853378295898438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13udxk-2269vn-16g",
+      "images": 6,
+      "size_mb": 0.20520496368408203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13udxk-2410vn",
+      "images": 6,
+      "size_mb": 0.20520496368408203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13vek-2256vn",
+      "images": 6,
+      "size_mb": 0.1889209747314453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13vek-2416vn",
+      "images": 6,
+      "size_mb": 0.1889209747314453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13vfk-2099vn",
+      "images": 6,
+      "size_mb": 0.1889209747314453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-b13vfk-676vn-i7-13620h-den",
+      "images": 5,
+      "size_mb": 0.44811439514160156,
+      "formats": [
+        ".png"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-hx-b14wek-027vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-hx-b14wek-295vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-hx-b14wfk-294vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-hx-b14wgk-022vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-15-hx-b14wgk-023vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-b14wek-286vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-b14wfk-025vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-katana-b14wfk-267vn",
+      "images": 7,
+      "size_mb": 0.20345115661621094,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-14-f13mg-466vn",
+      "images": 6,
+      "size_mb": 0.13043212890625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-14-h-d13mg-217vn",
+      "images": 6,
+      "size_mb": 0.17294597625732422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-15-f13mg-082vn",
+      "images": 7,
+      "size_mb": 0.1603231430053711,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-15-f13mg-667vn-16g",
+      "images": 7,
+      "size_mb": 0.1603231430053711,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-15-h-c13m-216vn",
+      "images": 6,
+      "size_mb": 0.17906761169433594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-modern-15-h-c2rmg-292vn",
+      "images": 6,
+      "size_mb": 0.16400814056396484,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-prestige-13-ai-evo-a1mg-062vn-ultra-7-155h-xam",
+      "images": 8,
+      "size_mb": 0.2403087615966797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-prestige-13-ai-evo-a2vmg-040vn",
+      "images": 8,
+      "size_mb": 0.19021320343017578,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-prestige-14-ai-studio-c1udxg-058vn",
+      "images": 6,
+      "size_mb": 0.16216278076171875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-prestige-16-ai-evo-b2vmg-016vn",
+      "images": 4,
+      "size_mb": 0.11880779266357422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-prestige-16-ai-mercedes-amg-b2vmg-088vn",
+      "images": 4,
+      "size_mb": 0.11880779266357422,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-raider-18-hx-ai-a2xwig-033vn",
+      "images": 8,
+      "size_mb": 0.22483539581298828,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-14-ai-studio-a1vfg-085vn-ultra-7-155h-xanh",
+      "images": 7,
+      "size_mb": 0.1756124496459961,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-18-hx-ai-a2xwig-017vn",
+      "images": 5,
+      "size_mb": 0.1320972442626953,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-a16-ai-a3xvgg-208vn",
+      "images": 9,
+      "size_mb": 0.18788433074951172,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-a16-ai-a3xwfg-018vn",
+      "images": 7,
+      "size_mb": 0.18664169311523438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-a16-ai-a3xwhg-085vn",
+      "images": 7,
+      "size_mb": 0.18664169311523438,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-stealth-a16-mercedes-amg-ai-a3xwgg-032vn",
+      "images": 5,
+      "size_mb": 0.12247371673583984,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-sword-16-hx-b14vekg-459vn-i7-14700hx-xam",
+      "images": 14,
+      "size_mb": 0.4928598403930664,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-sword-16-hx-b14vekg-856vn",
+      "images": 6,
+      "size_mb": 0.20439910888671875,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-sword-16-hx-b14vfkg-045vn-i7-14700hx-xam",
+      "images": 14,
+      "size_mb": 0.4932594299316406,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-thin-15-b13ve-2824vn",
+      "images": 7,
+      "size_mb": 0.21018218994140625,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-titan-18-hx-ai-a2xwig-090vn",
+      "images": 11,
+      "size_mb": 0.29535388946533203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-titan-18-hx-ai-a2xwjg-622vn",
+      "images": 11,
+      "size_mb": 0.29535388946533203,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-vector-16-hx-ai-a2xwhg-010vn",
+      "images": 13,
+      "size_mb": 0.6072816848754883,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-vector-16-hx-ai-a2xwig-062vn",
+      "images": 13,
+      "size_mb": 0.6076431274414062,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-venture-14-ai-a1mg-005vn",
+      "images": 12,
+      "size_mb": 0.40772533416748047,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-venture-a15-ai-a2hmg-003vn",
+      "images": 5,
+      "size_mb": 0.18001747131347656,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-venture-a16-ai-a3hmg-017vn",
+      "images": 5,
+      "size_mb": 0.16410350799560547,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "laptop-msi-venturepro-16-ai-a1veg-003vn",
+      "images": 4,
+      "size_mb": 0.12001800537109375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-13-m2-8-cpu-8-gpu-16gb-256gb",
+      "images": 8,
+      "size_mb": 0.2494058609008789,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-13-m3-8-cpu-10-gpu-24gb-512gb",
+      "images": 7,
+      "size_mb": 0.2199697494506836,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-13-m4-10-cpu-10-gpu-24gb-512gb",
+      "images": 7,
+      "size_mb": 0.23244190216064453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-13-m4-10-cpu-8-gpu-16gb-256gb",
+      "images": 7,
+      "size_mb": 0.21051597595214844,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-15-m4-10-cpu-10-gpu-16gb-256gb",
+      "images": 7,
+      "size_mb": 0.2130594253540039,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-15-m4-10-cpu-10-gpu-16gb-512gb",
+      "images": 7,
+      "size_mb": 0.20540332794189453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-air-15-m4-10-cpu-10-gpu-24gb-512gb",
+      "images": 7,
+      "size_mb": 0.20540332794189453,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-14-m4-max-14-cpu-32-gpu-36gb-1tb-ssd",
+      "images": 8,
+      "size_mb": 0.10765361785888672,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-16-m4-max-14-cpu-32-gpu-36gb-1tb",
+      "images": 8,
+      "size_mb": 0.10886573791503906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-16-m4-max-16-cpu-40-gpu-48gb-1tb",
+      "images": 6,
+      "size_mb": 0.10079193115234375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-m4-14-10-cpu-10-gpu-16gb-512gb",
+      "images": 8,
+      "size_mb": 0.10805797576904297,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-m4-pro-14-12-cpu-16-gpu-24gb-512gb",
+      "images": 8,
+      "size_mb": 0.10998916625976562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-m4-pro-14-14-cpu-20-gpu-24gb-1tb",
+      "images": 8,
+      "size_mb": 0.10998916625976562,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-m4-pro-16-inch-14-cpu-20-gpu-48gb-512gb",
+      "images": 8,
+      "size_mb": 0.10886573791503906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "macbook-pro-m4-pro-16-inch-14-cpu-20gpu-24gb-512gb",
+      "images": 6,
+      "size_mb": 0.10079193115234375,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-apple-macbook-pro-m5-14-inch",
+      "images": 5,
+      "size_mb": 0.07778358459472656,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-acer-gaming-nitro-v-15-anv15-41-r732-amd-ryzen-5-6600h-den",
+      "images": 8,
+      "size_mb": 0.19950294494628906,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-asus-tuf-gaming-f16-fx607vjb-rl151w-core-5-210h-den",
+      "images": 7,
+      "size_mb": 0.1818370819091797,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-lenovo-legion-5-15irx10-83ly00hrvn-i7-13650hx-den",
+      "images": 9,
+      "size_mb": 0.22533226013183594,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-macbook-air-2023-15-3-mqkp3sa-a-m2-8gb-256gb-space-grey",
+      "images": 12,
+      "size_mb": 0.3731660842895508,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-msi-cyborg-15-a13uc-2088vn-i5-13420h-den",
+      "images": 6,
+      "size_mb": 0.19934749603271484,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-msi-cyborg-15-a13vek-2089vn-i7-13620h-den",
+      "images": 8,
+      "size_mb": 0.23100948333740234,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-msi-cyborg-15-b13wekg-676vn-i5-13420h-den",
+      "images": 9,
+      "size_mb": 0.26474857330322266,
+      "formats": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "may-tinh-xach-tay-laptop-msi-cyborg-15-b13wfkg-658vn-i7-13620h-den",
+      "images": 9,
+      "size_mb": 0.26474857330322266,
+      "formats": [
+        ".jpg"
+      ]
+    }
+  ],
+  "empty_folders": []
+}

@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Air 13-inch (M3, 2024)
+Color: Mixed
+Angle: Front angle
+Description: Partially open 13-inch model with design work displayed
+Source URL: https://www.apple.com/v/macbook-air/w/images/overview/design/design_hero_endframe__dv7t8042ce6a_large.jpg

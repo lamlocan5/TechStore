@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Pro 14-inch (M4/M5, 2024-2025)
+Color: Silver
+Angle: Front
+Description: MacBook Pro in Silver color option
+Source URL: https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_colors_silver__bnbenbl45l9e_large.jpg

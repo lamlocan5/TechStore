@@ -1,0 +1,6 @@
+Brand: ASUS
+Model: ASUS ZenBook 14 OLED (UX3405)
+Color: Ponder Blue
+Angle: Front
+Description: Primary product shot in Ponder Blue, front-facing open view
+Source URL: https://dlcdnwebimgs.asus.com/gain/03506954-4dfb-473a-b057-db5554d6d9e8/

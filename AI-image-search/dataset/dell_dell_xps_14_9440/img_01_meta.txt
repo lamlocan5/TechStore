@@ -1,0 +1,6 @@
+Brand: Dell
+Model: Dell XPS 14 (9440)
+Color: Platinum
+Angle: Front view
+Description: High-resolution product shot of XPS 14 in silver/platinum finish
+Source URL: https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/14-9440/media-gallery/notebook-xps-14-9440t-sl-gallery-9.psd?fmt=pjpg&pscan=auto&scl=1&wid=3676&hei=2314&qlt=100,1&resMode=sharp2&size=3676,2314&chrss=full&imwidth=5000

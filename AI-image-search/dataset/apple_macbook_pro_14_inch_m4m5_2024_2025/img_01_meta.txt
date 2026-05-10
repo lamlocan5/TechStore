@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Pro 14-inch (M4/M5, 2024-2025)
+Color: Space Black
+Angle: Front
+Description: Front view of open MacBook Pro in Space Black finish
+Source URL: https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_hero_endframe__b69evl1aibiu_large.jpg

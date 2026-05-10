@@ -1,0 +1,14 @@
+# Bảng Kịch Bản Kiểm Thử (Test Cases) - AuthenticationService
+
+Dưới đây là chi tiết các Test Cases được thiết kế cho lớp `AuthenticationService` (Đăng nhập, Đăng xuất, Quên mật khẩu). Bạn có thể Copy/Paste thẳng vào file Excel báo cáo.
+
+| STT | Mã testcase | Lớp điều khiển | Phương thức | Trường hợp test | Mục tiêu test | Input (Dữ liệu đầu vào) | Expected Output (Kết quả kỳ vọng) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 14 | **IDN_14** | AuthenticationService | `authenticate` | Đăng nhập thành công | Kiểm tra chức năng đăng nhập với đúng tài khoản | User tồn tại sẵn với mật khẩu đúng<br>`AuthenticationRequest request = new AuthenticationRequest("test_user_01", "password123");` | Đăng nhập thành công, trả về Token hợp lệ trong `AuthenticationResponse`. |
+| 15 | **IDN_15** | AuthenticationService | `authenticate` | User không tồn tại | Kiểm tra lỗi khi tài khoản không có trong DB | User rác<br>`AuthenticationRequest request = new AuthenticationRequest("non_existent_user", "password123");` | Ném ngoại lệ `AppException` với `ErrorCode.USER_NOT_EXISTED`. |
+| 16 | **IDN_16** | AuthenticationService | `authenticate` | Sai mật khẩu | Kiểm tra tính bảo mật bắt lỗi sai mật khẩu | User tồn tại<br>`AuthenticationRequest request = new AuthenticationRequest("test_user_01", "wrongpassword");` | Ném ngoại lệ `AppException` với `ErrorCode.INCORRECT_PASSWORD`. |
+| 17 | **IDN_17** | AuthenticationService | `logout` | Đăng xuất thành công | Đảm bảo token bị đưa vào blacklist | Token hợp lệ sinh ra từ lúc đăng nhập<br>`LogoutRequest request = new LogoutRequest(token);` | Đăng xuất thành công, bảng `invalidated_token` trong Database tăng thêm 1 record chứa token này. |
+| 18 | **IDN_18** | AuthenticationService | `logout` | Token sai định dạng | Kiểm tra lỗi khi gửi token rác | `LogoutRequest request = new LogoutRequest("invalid.token.string");` | Ném ngoại lệ `ParseException`. |
+| 19 | **IDN_19** | AuthenticationService | `forgotPassword` | Quên mật khẩu thành công | Kiểm tra sinh mật khẩu mới và gửi email | User hợp lệ, ProfileClient trả về đúng Email<br>`ForgotPasswordRequest request = new ForgotPasswordRequest("test_user_01");` | Mật khẩu mới được sinh ra và lưu DB. Hệ thống gọi Kafka gửi Email thành công. |
+| 20 | **IDN_20** | AuthenticationService | `forgotPassword` | User không tồn tại | Bắt lỗi nếu tài khoản không tồn tại | User rác<br>`ForgotPasswordRequest request = new ForgotPasswordRequest("non_existent_user");` | Ném ngoại lệ `AppException` với `ErrorCode.USER_NOT_EXISTED`. |
+| 21 | **IDN_21** | AuthenticationService | `forgotPassword` | Không tìm thấy Email | Bắt lỗi nếu Profile trả về rỗng hoặc lỗi FeignClient | User hợp lệ nhưng ProfileClient trả về email là null<br>`ForgotPasswordRequest request = new ForgotPasswordRequest("test_user_02");` | Ném ngoại lệ `AppException` với `ErrorCode.EMAIL_NOT_FOUND`. |

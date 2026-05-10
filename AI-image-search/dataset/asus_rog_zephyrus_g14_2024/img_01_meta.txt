@@ -1,0 +1,6 @@
+Brand: ASUS
+Model: ROG Zephyrus G14 (2024)
+Color: Mixed
+Angle: Standard view
+Description: Main product shot of ROG Zephyrus G14
+Source URL: https://dlcdnwebimgs.asus.com/gain/E0275281-F18B-42C3-A025-3331C35A888F

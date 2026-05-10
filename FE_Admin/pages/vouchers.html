@@ -1,0 +1,126 @@
+<div class="page-header">
+    <h2>Quản lý Voucher</h2>
+    <div class="page-actions">
+        <button class="btn btn-primary" onclick="openVoucherModal()">Thêm Voucher</button>
+        <button class="btn btn-secondary" onclick="refreshVouchers()">Làm mới</button>
+    </div>
+</div>
+
+<!-- Vouchers Table -->
+<div class="table-container" style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <div style="padding: 15px; border-bottom: 1px solid #eee;">
+        <input type="text" id="voucher-search" class="search-input" placeholder="Tìm kiếm theo mã code hoặc tên..." style="width: 100%; max-width: 400px;">
+    </div>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Mã Code</th>
+                <th>Tên</th>
+                <th>Giảm giá</th>
+                <th>Đơn tối thiểu</th>
+                <th>Rank yêu cầu</th>
+                <th>Giới hạn tổng</th>
+                <th>Giới hạn/user</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="vouchers-table-body">
+            <tr><td colspan="10" style="text-align: center;">Đang tải...</td></tr>
+        </tbody>
+    </table>
+</div>
+<div id="vouchers-pagination"></div>
+
+<!-- Voucher Modal -->
+<div id="voucher-modal" class="modal">
+    <div class="modal-content large-modal">
+        <div class="modal-header">
+            <h2 id="voucher-modal-title">Thêm Voucher</h2>
+            <span class="close" onclick="closeModal('voucher-modal')">&times;</span>
+        </div>
+        <div class="modal-body">
+            <form id="voucher-form">
+                <input type="hidden" id="voucher-id">
+                
+                <div class="form-group">
+                    <label>Mã Code *</label>
+                    <input type="text" id="voucher-code" required placeholder="VD: BRONZE_5K">
+                </div>
+                
+                <div class="form-group">
+                    <label>Tên Voucher *</label>
+                    <input type="text" id="voucher-name" required placeholder="VD: Giảm 5K cho hạng Đồng">
+                </div>
+                
+                <div class="form-group">
+                    <label>Loại giảm giá *</label>
+                    <select id="voucher-discount-type" required>
+                        <option value="PERCENT">Phần trăm (%)</option>
+                        <option value="AMOUNT">Số tiền (VNĐ)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Giá trị giảm giá *</label>
+                    <input type="number" id="voucher-discount-value" required min="1" step="0.01" placeholder="VD: 10 (nếu %) hoặc 5000 (nếu VNĐ)">
+                </div>
+                
+                <div class="form-group">
+                    <label>Giá trị giảm tối đa (nếu loại %)</label>
+                    <input type="number" id="voucher-discount-max-value" min="0" step="0.01" placeholder="VD: 50000 (VNĐ)">
+                    <small style="color: #666;">Chỉ áp dụng khi loại giảm giá là phần trăm</small>
+                </div>
+                
+                <div class="form-group">
+                    <label>Đơn hàng tối thiểu (VNĐ) *</label>
+                    <input type="number" id="voucher-min-order-total" required min="0" placeholder="VD: 100000">
+                </div>
+                
+                <div class="form-group">
+                    <label>Rank tối thiểu *</label>
+                    <select id="voucher-min-rank" required>
+                        <option value="BRONZE">Đồng (BRONZE)</option>
+                        <option value="SILVER">Bạc (SILVER)</option>
+                        <option value="GOLD">Vàng (GOLD)</option>
+                        <option value="DIAMOND">Kim Cương (DIAMOND)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Thời gian bắt đầu *</label>
+                    <input type="datetime-local" id="voucher-start-at" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Thời gian kết thúc *</label>
+                    <input type="datetime-local" id="voucher-end-at" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Giới hạn tổng số lần sử dụng</label>
+                    <input type="number" id="voucher-max-usage" min="1" placeholder="Để trống = không giới hạn">
+                </div>
+                
+                <div class="form-group">
+                    <label>Giới hạn mỗi user</label>
+                    <input type="number" id="voucher-max-per-user" min="1" placeholder="Để trống = không giới hạn">
+                </div>
+                
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 8px;">
+                        <input type="checkbox" id="voucher-status" checked>
+                        <span>Kích hoạt voucher</span>
+                    </label>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('voucher-modal')">Hủy</button>
+                    <button type="button" class="btn btn-primary" onclick="saveVoucher()">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

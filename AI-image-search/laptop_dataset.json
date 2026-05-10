@@ -1,0 +1,257 @@
+{
+  "dataset_info": {
+    "purpose": "Machine learning image retrieval training dataset",
+    "collection_date": "2025-10-31",
+    "total_models": 15,
+    "image_quality": "High-resolution (minimum 800x800 where available)",
+    "note": "Some Apple URLs are relative and need domain prefix: https://www.apple.com"
+  },
+  "laptops": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "MacBook Pro 14-inch (M4/M5, 2024-2025)",
+      "product_page": "https://www.apple.com/macbook-pro-14-and-16/",
+      "description": "Premium 14-inch laptop with Liquid Retina XDR display, M4/M5 chip",
+      "colors": ["Space Black", "Silver"],
+      "images": [
+        {
+          "url": "https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_hero_endframe__b69evl1aibiu_large.jpg",
+          "description": "Front view of open MacBook Pro in Space Black finish",
+          "angle": "Front",
+          "color": "Space Black"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_colors_spaceblack__9ja3btfshpuq_large.jpg",
+          "description": "MacBook Pro in Space Black color option",
+          "angle": "Front",
+          "color": "Space Black"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_colors_silver__bnbenbl45l9e_large.jpg",
+          "description": "MacBook Pro in Silver color option",
+          "angle": "Front",
+          "color": "Silver"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_display__ej7qlikot18i_large.jpg",
+          "description": "Close-up of Liquid Retina XDR display",
+          "angle": "Display detail",
+          "color": "N/A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "Apple",
+      "model": "MacBook Air 13-inch (M3, 2024)",
+      "product_page": "https://www.apple.com/macbook-air/",
+      "description": "Ultralight 13-inch laptop with M3 chip, fanless design",
+      "colors": ["Sky Blue", "Silver", "Starlight", "Midnight"],
+      "images": [
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/hero/hero_static__c9sislzzicq6_large.png",
+          "description": "Two MacBook Air laptops in Sky Blue forming arrow shape",
+          "angle": "Hero shot",
+          "color": "Sky Blue"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/design/design_hero_endframe__dv7t8042ce6a_large.jpg",
+          "description": "Partially open 13-inch model with design work displayed",
+          "angle": "Front angle",
+          "color": "Mixed"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/design/color/design_top_skyblue__eepkvlvjzcia_large.jpg",
+          "description": "Front and top view in Sky Blue color",
+          "angle": "Top view",
+          "color": "Sky Blue"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/design/color/design_magsafe_skyblue__gii6y9jn1yai_large.jpg",
+          "description": "Sky Blue unit with color-matched MagSafe charging cable",
+          "angle": "With accessories",
+          "color": "Sky Blue"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Apple",
+      "model": "MacBook Air 15-inch (M3, 2024)",
+      "product_page": "https://www.apple.com/macbook-air/",
+      "description": "Larger 15-inch ultralight laptop with M3 chip",
+      "colors": ["Sky Blue", "Silver", "Starlight", "Midnight"],
+      "images": [
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/design/sizes/design_sizes_endframe__ckfqlo8f44eq_large.jpg",
+          "description": "13-inch and 15-inch models positioned back-to-back showing size comparison",
+          "angle": "Size comparison",
+          "color": "Mixed"
+        },
+        {
+          "url": "https://www.apple.com/v/macbook-air/w/images/overview/performance/performance_hero_endframe__brqjd2udp1yq_large.jpg",
+          "description": "Two units demonstrating Final Cut Pro video editing",
+          "angle": "Front view",
+          "color": "Mixed"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "Dell",
+      "model": "Dell XPS 14 (9440)",
+      "product_page": "https://www.dell.com/en-us/shop/dell-laptops/xps-14-laptop/spd/xps-14-9440-laptop",
+      "description": "14-inch premium laptop with Intel Core Ultra processors, minimalist design",
+      "colors": ["Graphite", "Platinum"],
+      "images": [
+        {
+          "url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/14-9440/media-gallery/notebook-xps-14-9440t-sl-gallery-9.psd?fmt=pjpg&pscan=auto&scl=1&wid=3676&hei=2314&qlt=100,1&resMode=sharp2&size=3676,2314&chrss=full&imwidth=5000",
+          "description": "High-resolution product shot of XPS 14 in silver/platinum finish",
+          "angle": "Front view",
+          "color": "Platinum",
+          "resolution": "3676x2314"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "brand": "Dell",
+      "model": "Dell XPS 13 (9345)",
+      "product_page": "https://www.dell.com/en-us/shop/dell-laptops/xps-13-laptop/spd/xps-13-9345-laptop",
+      "description": "13-inch ultraportable with CNC machined aluminum and Gorilla Glass 3",
+      "colors": ["Graphite", "Platinum"],
+      "images": []
+    },
+    {
+      "id": 6,
+      "brand": "Dell",
+      "model": "Dell XPS 16 (9640)",
+      "product_page": "https://www.dell.com/en-us/shop/dell-laptops/xps-16-laptop/spd/xps-16-9640-laptop",
+      "description": "16-inch premium laptop with Intel Core Ultra, professional creators laptop",
+      "colors": ["Graphite", "Platinum"],
+      "images": []
+    },
+    {
+      "id": 7,
+      "brand": "ASUS",
+      "model": "ASUS ZenBook 14 OLED (UX3405)",
+      "product_page": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/",
+      "description": "14-inch premium ultrabook with OLED display in Ponder Blue colorway",
+      "colors": ["Ponder Blue", "Foggy Silver", "Jasper Grey"],
+      "images": [
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/03506954-4dfb-473a-b057-db5554d6d9e8/",
+          "description": "Primary product shot in Ponder Blue, front-facing open view",
+          "angle": "Front",
+          "color": "Ponder Blue"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/2520d5e0-be26-41d0-be04-fc6ebfd289c1/",
+          "description": "Alternate angle of the laptop",
+          "angle": "Alternate",
+          "color": "Ponder Blue"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/e83f2ab1-5fc0-4e3e-8475-12b582e0717b/",
+          "description": "Side profile perspective showcasing device thickness",
+          "angle": "Side",
+          "color": "Ponder Blue"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/5b871040-5e52-4f38-a22d-f3328efe6fc4/",
+          "description": "Rear/back panel view of the closed device",
+          "angle": "Back",
+          "color": "Ponder Blue"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "ASUS",
+      "model": "ROG Zephyrus G14 (2024)",
+      "product_page": "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g14-2024/",
+      "description": "14-inch gaming laptop with AMD Ryzen processors, CNC-machined aluminum",
+      "colors": ["Platinum White", "Eclipse Grey"],
+      "images": [
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/E0275281-F18B-42C3-A025-3331C35A888F",
+          "description": "Main product shot of ROG Zephyrus G14",
+          "angle": "Standard view",
+          "color": "Mixed"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "ASUS",
+      "model": "ASUS ZenBook Duo (2024)",
+      "product_page": "https://www.asus.com/laptops/for-home/zenbook/zenbook-duo-2024-ux8406/",
+      "description": "Unique dual-screen laptop with twin 14-inch 3K 120Hz OLED displays",
+      "colors": ["Inkwell Grey"],
+      "images": []
+    },
+    {
+      "id": 10,
+      "brand": "HP",
+      "model": "HP Spectre x360 14 (2024)",
+      "product_page": "https://www.hp.com/us-en/shop/mdp/envy---omen/hp-spectre-x360-14-3074457345617526676--1",
+      "description": "14-inch premium 2-in-1 convertible with Intel Core Ultra processors",
+      "colors": ["Nocturne Blue", "Natural Silver"],
+      "images": []
+    },
+    {
+      "id": 11,
+      "brand": "HP",
+      "model": "HP Envy x360 14 (2024)",
+      "product_page": "https://www.hp.com/us-en/shop/slp/hp-envy-laptops",
+      "description": "14-inch convertible laptop with Intel or AMD processors, premium design",
+      "colors": ["Natural Silver", "Meteor Silver"],
+      "images": []
+    },
+    {
+      "id": 12,
+      "brand": "Lenovo",
+      "model": "ThinkPad X1 Carbon Gen 12",
+      "product_page": "https://lenovo.com/us/en/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-12-(14-inch-intel)/21kc004fus",
+      "description": "14-inch ultralight business laptop under 2.2 pounds, Intel Core Ultra",
+      "colors": ["Thunder Black"],
+      "images": []
+    },
+    {
+      "id": 13,
+      "brand": "Acer",
+      "model": "Acer Swift Go 14 (2024)",
+      "product_page": "https://www.acer.com/us-en/laptops/swift/swift-go",
+      "description": "14-inch AI PC with OLED display, ultra-thin and light design",
+      "colors": ["Steel Gray"],
+      "images": []
+    },
+    {
+      "id": 14,
+      "brand": "Acer",
+      "model": "Acer Aspire Vero 16 (2025)",
+      "product_page": "https://www.acer.com/us-en/laptops/aspire/aspire-vero-16",
+      "description": "16-inch eco-friendly laptop made with bio-based oyster shell material, CES 2025 Innovation Award Honoree",
+      "colors": ["Eco-friendly finish"],
+      "images": []
+    },
+    {
+      "id": 15,
+      "brand": "MSI",
+      "model": "MSI Prestige 16 AI Evo",
+      "product_page": "https://www.msi.com/Business-Productivity/Prestige-16-AI-Evo-B1MX",
+      "description": "16-inch business laptop with Intel Core Ultra processor, ultralight at 1.5kg, 16:10 OLED display",
+      "colors": ["Star Blue", "Urban Silver"],
+      "images": []
+    }
+  ],
+  "usage_notes": {
+    "apple_images": "Apple image URLs are complete and ready to use. Prefix with https://www.apple.com if needed.",
+    "dell_images": "Dell site has access restrictions. The provided XPS 14 URL works with proper parameters.",
+    "asus_images": "ASUS CDN URLs may need file extension or size parameters appended for best results.",
+    "missing_images": "Some models have empty image arrays - visit the product_page URL to manually extract images.",
+    "copyright": "All images are property of their respective manufacturers. Use only for authorized ML training purposes.",
+    "recommendation": "For best results, visit each product_page directly and use browser developer tools to extract full-resolution image URLs."
+  }
+}

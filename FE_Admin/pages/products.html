@@ -1,0 +1,400 @@
+<!-- Products List View -->
+<div id="products-list-view">
+    <div class="page-header">
+        <h2>Quản lý Sản phẩm</h2>
+        <div class="page-actions">
+            <button class="btn btn-primary" onclick="openProductEditView()">+ Thêm sản phẩm</button>
+            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm..." id="product-search">
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Danh mục / Thương hiệu</th>
+                    <th>Giá</th>
+                    <th>Tồn kho</th>
+                    <th>Số biến thể</th>
+                    <th>Trạng thái</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="products-table-body">
+                <tr>
+                    <td colspan="8" style="text-align: center;">Đang tải...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="products-pagination"></div>
+</div>
+
+<!-- Product Detail View (Full Screen) -->
+<div id="product-detail-view" style="display: none;">
+    <div
+        style="background: white; border-bottom: 1px solid #eee; padding: 20px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button class="btn btn-secondary" onclick="backToProductsList()"
+                    style="padding: 8px 16px; font-size: 14px;">
+                    ← Quay lại danh sách
+                </button>
+                <div>
+                    <h2 id="selected-product-name-view" style="margin: 0; font-size: 24px;">-</h2>
+                    <div id="selected-product-info-view" style="font-size: 14px; color: #666; margin-top: 5px;"></div>
+                </div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-edit" onclick="editSelectedProduct()"
+                    style="padding: 8px 16px; font-size: 14px;">✏️ Sửa sản phẩm</button>
+                <button class="btn btn-danger" onclick="deleteSelectedProduct()"
+                    style="padding: 8px 16px; font-size: 14px;">🗑️ Xóa</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabs -->
+    <div
+        style="background: white; border-bottom: 1px solid #eee; padding: 0 20px; position: sticky; top: 90px; z-index: 99;">
+        <div class="tabs" style="display: flex; gap: 0;">
+            <button class="tab-btn active" onclick="switchProductTab('info')" data-tab="info">
+                📋 Thông tin sản phẩm
+            </button>
+            <button class="tab-btn" onclick="switchProductTab('variants')" data-tab="variants">
+                🎨 Biến thể (<span id="variants-count-view">0</span>)
+            </button>
+            <button class="tab-btn" onclick="switchProductTab('add-variant')" data-tab="add-variant">
+                ➕ Thêm biến thể
+            </button>
+        </div>
+    </div>
+
+    <!-- Tab Content -->
+    <div style="background: #f5f5f5; min-height: calc(100vh - 200px); padding: 20px;">
+        <!-- Tab: Product Info -->
+        <div id="tab-info" class="tab-content active">
+            <div id="product-info-detail"
+                style="max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <div style="text-align: center; padding: 40px; color: #999;">Đang tải thông tin...</div>
+            </div>
+        </div>
+
+        <!-- Tab: Variants List -->
+        <div id="tab-variants" class="tab-content" style="display: none;">
+            <div
+                style="max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <div style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+                    <h3 style="margin: 0;">Danh sách biến thể</h3>
+                    <button class="btn btn-primary" onclick="switchProductTab('add-variant')"
+                        style="padding: 8px 16px; font-size: 13px;">+ Thêm biến thể mới</button>
+                </div>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>SKU</th>
+                                <th>Giá</th>
+                                <th>Tồn kho</th>
+                                <th>Thông số</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="variants-table-body">
+                            <tr>
+                                <td colspan="6" style="text-align: center; padding: 40px; color: #999;">Chưa có biến thể
+                                    nào</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Add/Edit Variant -->
+        <div id="tab-add-variant" class="tab-content" style="display: none;">
+            <div
+                style="max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <h3 style="margin-top: 0;">Thêm / Sửa biến thể</h3>
+                <form id="variant-form-tab">
+                    <input type="hidden" id="variant-id-tab">
+                    <input type="hidden" id="variant-product-id-tab">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Sản phẩm *</label>
+                            <input type="text" id="variant-product-name-tab" readonly style="background: #f5f5f5;">
+                        </div>
+                        <div class="form-group">
+                            <label>SKU *</label>
+                            <input type="text" id="variant-sku-tab" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Giá niêm yết</label>
+                            <input type="number" id="variant-price-list-tab" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Giá bán *</label>
+                            <input type="number" id="variant-price-sale-tab" min="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Số lượng tồn kho *</label>
+                            <input type="number" id="variant-stock-tab" min="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                                <input type="checkbox" id="variant-allow-preorder-tab"
+                                    style="width: 18px; height: 18px;">
+                                <span>Cho phép đặt trước</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Màu sắc</label>
+                            <input type="text" id="variant-color-tab">
+                        </div>
+                        <div class="form-group">
+                            <label>RAM (GB)</label>
+                            <input type="number" id="variant-ram-tab" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Dung lượng (GB)</label>
+                            <input type="number" id="variant-storage-tab" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>CPU Model</label>
+                            <input type="text" id="variant-cpu-tab">
+                        </div>
+                        <div class="form-group">
+                            <label>GPU Model</label>
+                            <input type="text" id="variant-gpu-tab">
+                        </div>
+                        <div class="form-group">
+                            <label>OS</label>
+                            <input type="text" id="variant-os-tab">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>iGPU</label>
+                            <input type="text" id="variant-igpu-tab">
+                        </div>
+                        <div class="form-group">
+                            <label>Chipset Model</label>
+                            <input type="text" id="variant-chipset-tab">
+                        </div>
+                        <div class="form-group">
+                            <label>Trọng lượng (g)</label>
+                            <input type="number" id="variant-weight-tab" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Thuộc tính mở rộng</label>
+                        <div id="variant-attributes-container-tab"
+                            style="border: 1px solid #ddd; border-radius: 6px; padding: 15px; max-height: 400px; overflow-y: auto; background: #f9f9f9;">
+                            <p style="color: #666; font-size: 13px; margin-bottom: 10px;">Chọn và nhập giá trị cho các
+                                thuộc tính:</p>
+                            <div id="variant-attributes-list-tab">
+                                <p style="color: #999; text-align: center; padding: 20px;">Đang tải danh sách thuộc
+                                    tính...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions" style="margin-top: 20px;">
+                        <button type="button" class="btn btn-secondary" onclick="cancelVariantForm()">Hủy</button>
+                        <button type="button" class="btn btn-primary" onclick="saveVariantFromTab()">Lưu biến
+                            thể</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Edit View (Full Screen) -->
+<div id="product-edit-view" style="display: none;">
+    <div
+        style="background: white; border-bottom: 1px solid #eee; padding: 20px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button class="btn btn-secondary" onclick="backFromProductEdit()"
+                    style="padding: 8px 16px; font-size: 14px;">
+                    ← Quay lại
+                </button>
+                <h2 id="product-edit-title" style="margin: 0; font-size: 24px;">Thêm sản phẩm</h2>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-secondary" onclick="backFromProductEdit()"
+                    style="padding: 8px 16px; font-size: 14px;">Hủy</button>
+                <button class="btn btn-primary" onclick="saveProduct()" style="padding: 8px 16px; font-size: 14px;">💾
+                    Lưu sản phẩm</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #f5f5f5; min-height: calc(100vh - 100px); padding: 20px;">
+        <div
+            style="max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <form id="product-form">
+                <input type="hidden" id="product-id">
+                <div class="form-group">
+                    <label>Tên sản phẩm *</label>
+                    <input type="text" id="product-name" required
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <div class="form-group">
+                    <label>Slug</label>
+                    <input type="text" id="product-slug"
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <div class="form-group">
+                    <label>Mô tả ngắn</label>
+                    <textarea id="product-short-desc" rows="3"
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Mô tả chi tiết</label>
+                    <textarea id="product-desc" rows="6"
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Danh mục *</label>
+                        <select id="product-category-id" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Thương hiệu *</label>
+                        <select id="product-brand-id" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Giá niêm yết</label>
+                        <input type="number" id="product-price-list" min="0"
+                            style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Giá bán *</label>
+                        <input type="number" id="product-price-sale" min="0" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                </div>
+                <!-- Image Upload Section -->
+                <div class="form-group"
+                    style="border: 1px solid #e0e0e0; padding: 20px; border-radius: 8px; background: #fafafa;">
+                    <label style="font-weight: 600; margin-bottom: 15px; display: block;">📷 Quản lý ảnh sản
+                        phẩm</label>
+
+                    <!-- Avatar Section -->
+                    <div style="margin-bottom: 25px;">
+                        <label style="font-size: 14px; color: #333; margin-bottom: 10px; display: block;">Ảnh đại
+                            diện</label>
+                        <div id="product-avatar-preview"
+                            style="width: 120px; height: 120px; border: 2px dashed #2196f3; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer; background: white; margin-bottom: 10px; overflow: hidden;">
+                            <span style="color: #999; text-align: center; font-size: 12px;">Chọn ảnh đại diện</span>
+                        </div>
+                        <input type="file" id="product-avatar-input" accept="image/*" style="display: none;">
+                        <input type="hidden" id="product-avatar-hidden">
+                        <button type="button" onclick="document.getElementById('product-avatar-input').click()"
+                            style="background: #2196f3; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 13px;">
+                            Chọn ảnh
+                        </button>
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Dung lượng tối đa: 5MB. Định dạng:
+                            JPG, PNG, WebP</p>
+                    </div>
+
+                    <!-- Gallery Section -->
+                    <div>
+                        <label style="font-size: 14px; color: #333; margin-bottom: 10px; display: block;">Danh sách ảnh
+                            sản phẩm</label>
+                        <div id="gallery-previews-container"
+                            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; margin-bottom: 10px;">
+                        </div>
+                        <input type="file" id="product-gallery-input" accept="image/*" multiple style="display: none;">
+                        <input type="hidden" id="product-gallery-hidden">
+                        <button type="button" id="add-gallery-image-btn"
+                            style="background: #4caf50; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 13px;">
+                            + Thêm ảnh
+                        </button>
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Có thể chọn nhiều ảnh cùng lúc. Tối đa
+                            5MB/ảnh</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="product-status" checked style="width: 20px; height: 20px;">
+                        <span>Kích hoạt sản phẩm</span>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Stock Edit View (Full Screen) -->
+<div id="stock-edit-view" style="display: none;">
+    <div
+        style="background: white; border-bottom: 1px solid #eee; padding: 20px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button class="btn btn-secondary" onclick="backFromStockEdit()"
+                    style="padding: 8px 16px; font-size: 14px;">
+                    ← Quay lại
+                </button>
+                <h2 id="stock-edit-title" style="margin: 0; font-size: 24px;">Cập nhật tồn kho</h2>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-secondary" onclick="backFromStockEdit()"
+                    style="padding: 8px 16px; font-size: 14px;">Hủy</button>
+                <button class="btn btn-primary" onclick="saveStock()" style="padding: 8px 16px; font-size: 14px;">💾
+                    Lưu</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #f5f5f5; min-height: calc(100vh - 100px); padding: 20px;">
+        <div
+            style="max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <form id="stock-form">
+                <input type="hidden" id="stock-variant-id">
+                <input type="hidden" id="stock-action">
+
+                <div class="form-group">
+                    <label>Biến thể</label>
+                    <div id="stock-variant-info"
+                        style="padding: 15px; background: #f5f5f5; border-radius: 4px; font-weight: 500; font-size: 16px; margin-bottom: 20px;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Số lượng hiện tại</label>
+                    <div id="stock-current-stock"
+                        style="padding: 15px; background: #e3f2fd; border-radius: 4px; font-size: 24px; font-weight: bold; color: #1976d2; margin-bottom: 20px; text-align: center;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label id="stock-action-label">Số lượng <span id="stock-action-text"></span></label>
+                    <input type="number" id="stock-quantity" min="1" required
+                        style="width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

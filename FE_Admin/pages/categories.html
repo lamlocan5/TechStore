@@ -1,0 +1,50 @@
+<div class="page-actions">
+    <button class="btn btn-primary" onclick="openCategoryModal()">Thêm danh mục</button>
+    <input type="text" class="search-input" placeholder="Tìm kiếm danh mục..." id="category-search">
+</div>
+<div class="table-container">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Danh mục cha</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="categories-table-body">
+            <tr><td colspan="4">Đang tải...</td></tr>
+        </tbody>
+    </table>
+</div>
+<div id="categories-pagination"></div>
+
+<!-- Category Modal -->
+<div id="category-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="category-modal-title">Thêm danh mục</h2>
+            <span class="close" onclick="closeModal('category-modal')">&times;</span>
+        </div>
+        <div class="modal-body">
+            <form id="category-form">
+                <input type="hidden" id="category-id">
+                <div class="form-group">
+                    <label>Tên danh mục *</label>
+                    <input type="text" id="category-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Danh mục cha</label>
+                    <select id="category-parent-id">
+                        <option value="">Không có</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeModal('category-modal')">Hủy</button>
+            <button class="btn btn-primary" onclick="saveCategory()">Lưu</button>
+        </div>
+    </div>
+</div>
+

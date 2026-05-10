@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Pro 14-inch (M4/M5, 2024-2025)
+Color: N/A
+Angle: Display detail
+Description: Close-up of Liquid Retina XDR display
+Source URL: https://www.apple.com/v/macbook-pro/au/images/overview/product-viewer/pv_display__ej7qlikot18i_large.jpg

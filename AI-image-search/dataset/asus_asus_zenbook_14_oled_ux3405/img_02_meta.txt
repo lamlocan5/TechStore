@@ -1,0 +1,6 @@
+Brand: ASUS
+Model: ASUS ZenBook 14 OLED (UX3405)
+Color: Ponder Blue
+Angle: Alternate
+Description: Alternate angle of the laptop
+Source URL: https://dlcdnwebimgs.asus.com/gain/2520d5e0-be26-41d0-be04-fc6ebfd289c1/

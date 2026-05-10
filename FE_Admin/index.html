@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản lý sản phẩm</h2>
+                <div class="user-info" id="userInfo" style="display:none;">
+                    <small style="color: #aaa; font-size: 12px;" id="userName"></small>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="nav-item active" data-page="dashboard">
+                        <a href="#" onclick="showPage('dashboard'); return false;">Dashboard</a>
+                    </li>
+                    <li class="nav-item" data-page="products">
+                        <a href="#" onclick="showPage('products'); return false;">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item" data-page="categories">
+                        <a href="#" onclick="showPage('categories'); return false;">Danh mục</a>
+                    </li>
+                    <li class="nav-item" data-page="attributes">
+                        <a href="#" onclick="showPage('attributes'); return false;">Thuộc tính hệ thống</a>
+                    </li>
+                    <li class="nav-item" data-page="statistics">
+                        <a href="#" onclick="showPage('statistics'); return false;">Thống kê hàng hóa</a>
+                    </li>
+                    <li class="nav-item" data-page="revenue">
+                        <a href="#" onclick="showPage('revenue'); return false;">Thống kê doanh thu</a>
+                    </li>
+                    <li class="nav-item" data-page="orders">
+                        <a href="#" onclick="showPage('orders'); return false;">Đơn hàng</a>
+                    </li>
+                    <li class="nav-item" data-page="vouchers">
+                        <a href="#" onclick="showPage('vouchers'); return false;">Voucher</a>
+                    </li>
+                    <li class="nav-item" data-page="ranks">
+                        <a href="#" onclick="showPage('ranks'); return false;">Rank & Thành viên</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: auto;">
+                        <a href="#" onclick="logout(); return false;" style="color: #f44336;">
+                            Đăng xuất
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h1 id="page-title">Dashboard</h1>
+            </div>
+
+            <!-- Page Container - Loaded dynamically -->
+            <div id="page-container" class="page-content active">
+                <p>Đang tải...</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Auth check script (load first) -->
+    <script src="js/auth.js"></script>
+
+    <!-- Supabase config -->
+    <script src="js/supabase-config.js"></script>
+
+    <!-- Product image manager -->
+    <script src="js/product-image-manager.js"></script>
+
+    <!-- Load other scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/attributes.js"></script>
+    <script src="js/statistics.js"></script>
+    <script src="js/revenue.js"></script>
+    <script src="js/orders.js"></script>
+    <script src="js/vouchers.js"></script>
+    <script src="js/ranks.js"></script>
+</body>
+
+</html>

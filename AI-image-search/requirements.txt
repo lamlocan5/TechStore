@@ -1,0 +1,36 @@
+# Core dependencies for the complete ML image dataset pipeline
+
+# Deep Learning
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Image Processing
+Pillow>=8.0.0
+
+# Data Processing
+numpy>=1.19.0
+pandas>=1.2.0
+
+# Machine Learning
+scikit-learn>=0.24.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Web Requests (for downloading images)
+requests>=2.25.0
+
+# Progress Bars (optional but recommended)
+tqdm>=4.60.0
+
+# Jupyter Notebook (optional, for interactive exploration)
+jupyter>=1.0.0
+notebook>=6.4.0
+ipywidgets>=7.6.0
+
+# Web Interface for Demo
+gradio>=3.50.0
+
+# Optional: GPU acceleration (CUDA)
+# Install CUDA-enabled PyTorch from: https://pytorch.org/get-started/locally/

@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Air 15-inch (M3, 2024)
+Color: Mixed
+Angle: Front view
+Description: Two units demonstrating Final Cut Pro video editing
+Source URL: https://www.apple.com/v/macbook-air/w/images/overview/performance/performance_hero_endframe__brqjd2udp1yq_large.jpg

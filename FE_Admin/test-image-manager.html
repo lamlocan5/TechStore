@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Product Image Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 8px 16px;
+            background: #2196f3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background: #1976d2;
+        }
+
+        .button-green {
+            background: #4caf50;
+        }
+
+        .button-green:hover {
+            background: #45a049;
+        }
+
+        #product-avatar-preview {
+            width: 120px;
+            height: 120px;
+            border: 2px dashed #2196f3;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background: white;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        #gallery-previews-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 10px;
+            margin-bottom: 10px;
+            min-height: 50px;
+            background: #fafafa;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .gallery-item {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            background: #f0f0f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-item button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            padding: 4px 8px;
+            background: #ff4444;
+            font-size: 12px;
+            z-index: 10;
+        }
+
+        .status-label {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+
+        .info {
+            background: #e3f2fd;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Test Product Image Manager</h1>
+
+        <div class="form-group">
+            <label>Avatar (Ảnh đại diện):</label>
+            <div id="product-avatar-preview">
+                <span style="color: #999; text-align: center; font-size: 12px;">Chọn ảnh đại diện</span>
+            </div>
+            <input type="file" id="product-avatar-input" accept="image/*">
+            <input type="hidden" id="product-avatar-hidden">
+            <button type="button" onclick="document.getElementById('product-avatar-input').click()">
+                Chọn ảnh
+            </button>
+        </div>
+
+        <div class="form-group">
+            <label>Gallery (Danh sách ảnh sản phẩm):</label>
+            <div id="gallery-previews-container">
+                <!-- Gallery items sẽ render ở đây -->
+            </div>
+            <input type="file" id="product-gallery-input" accept="image/*" multiple>
+            <input type="hidden" id="product-gallery-hidden">
+            <button type="button" id="add-gallery-image-btn" class="button-green">
+                + Thêm ảnh
+            </button>
+        </div>
+
+        <div class="info">
+            <strong>Số ảnh đã chọn:</strong> <span id="gallery-count">0</span><br>
+            <strong>Avatar:</strong> <span id="avatar-status">Chưa chọn</span><br>
+            <strong>Gallery URLs:</strong> <textarea id="gallery-urls" style="width: 100%; height: 80px;"></textarea>
+        </div>
+
+        <button onclick="testUploadSimulation()">🧪 Test Upload (Simulation)</button>
+        <button onclick="testLoadExisting()">📂 Test Load Existing</button>
+        <button onclick="resetForm()">🔄 Reset Form</button>
+    </div>
+
+    <script>
+        // Dummy Supabase config (not using real upload in this test)
+        const SUPABASE_URL = 'https://dummy.supabase.co';
+        const SUPABASE_ANON_KEY = 'dummy-key';
+
+        // Mock upload function
+        async function uploadImageToSupabase(file, folder) {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    const url = `${SUPABASE_URL}/storage/v1/object/public/products/${folder}/mock-${Date.now()}.jpg`;
+                    resolve(url);
+                }, 500);
+            });
+        }
+
+        async function uploadMultipleImages(files, folder) {
+            const promises = Array.from(files).map(file => uploadImageToSupabase(file, folder));
+            return Promise.all(promises);
+        }
+    </script>
+
+    <script src="../js/product-image-manager.js"></script>
+
+    <script>
+        // Initialize
+        productImageManager.init();
+
+        // Update status display
+        document.getElementById('product-gallery-input').addEventListener('change', () => {
+            updateDisplay();
+        });
+
+        document.getElementById('product-avatar-input').addEventListener('change', () => {
+            updateDisplay();
+        });
+
+        function updateDisplay() {
+            document.getElementById('gallery-count').textContent = productImageManager.galleryFiles.length;
+            document.getElementById('avatar-status').textContent = productImageManager.avatarFile ? productImageManager.avatarFile.name : 'Chưa chọn';
+        }
+
+        async function testUploadSimulation() {
+            alert('⚠️ This is a simulation. Real upload requires Supabase credentials.');
+            const data = productImageManager.getImageData();
+            document.getElementById('gallery-urls').value = JSON.stringify(data, null, 2);
+        }
+
+        function testLoadExisting() {
+            const mockProduct = {
+                avatar: 'https://via.placeholder.com/150?text=Avatar',
+                images: 'https://via.placeholder.com/150?text=Image1,https://via.placeholder.com/150?text=Image2'
+            };
+            productImageManager.loadExistingImages(mockProduct);
+            alert('✅ Loaded mock existing images');
+        }
+
+        function resetForm() {
+            productImageManager.reset();
+            updateDisplay();
+            document.getElementById('gallery-urls').value = '';
+            alert('✅ Form reset');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+Brand: Apple
+Model: MacBook Air 13-inch (M3, 2024)
+Color: Sky Blue
+Angle: Hero shot
+Description: Two MacBook Air laptops in Sky Blue forming arrow shape
+Source URL: https://www.apple.com/v/macbook-air/w/images/overview/hero/hero_static__c9sislzzicq6_large.png

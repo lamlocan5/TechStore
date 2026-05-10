@@ -1,0 +1,108 @@
+<div class="page-header">
+    <h2></h2>
+    <div class="page-actions">
+        <button class="btn btn-secondary" onclick="exportRevenueStatistics()">Xuất Excel</button>
+        <button class="btn btn-primary" onclick="refreshRevenueStatistics()">Làm mới</button>
+    </div>
+</div>
+
+<!-- Filter Section for Revenue -->
+<div
+    style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; margin-bottom: 15px;">Bộ lọc</h3>
+    <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; align-items: flex-end;">
+        <div class="form-group">
+            <label>Loại thống kê</label>
+            <select id="revenue-period" class="form-select" onchange="updateRevenueFilter()">
+                <option value="month">Theo tháng</option>
+                <option value="quarter">Theo quý</option>
+                <option value="year">Theo năm</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Năm</label>
+            <select id="revenue-year" class="form-select" onchange="loadRevenueStatistics()">
+                <option value="">Chọn năm</option>
+            </select>
+        </div>
+        <div class="form-group" id="month-select-group">
+            <label>Tháng</label>
+            <select id="revenue-month" class="form-select" onchange="loadRevenueStatistics()">
+                <option value="">Tất cả tháng</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="loadRevenueStatistics()" style="width: 100%;">Áp dụng</button>
+        </div>
+    </div>
+</div>
+
+<!-- Revenue Summary Cards -->
+<div
+    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">
+    <div class="stat-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <h3>Tổng doanh thu</h3>
+        <p id="revenue-total" style="font-size: 28px; font-weight: bold; color: white;">0 ₫</p>
+    </div>
+    <div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+        <h3>Số đơn</h3>
+        <p id="revenue-orders" style="font-size: 28px; font-weight: bold; color: white;">0</p>
+    </div>
+    <div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+        <h3>Số SP bán</h3>
+        <p id="revenue-items" style="font-size: 28px; font-weight: bold; color: white;">0</p>
+    </div>
+    <div class="stat-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+        <h3>Doanh thu trung bình/đơn</h3>
+        <p id="revenue-avg" style="font-size: 28px; font-weight: bold; color: white;">0 ₫</p>
+    </div>
+</div>
+
+<!-- Revenue Table -->
+<div
+    style="background: white; border-radius: 6px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">Chi tiết doanh thu</h3>
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Kỳ</th>
+                    <th>Doanh thu</th>
+                    <th>Số đơn</th>
+                    <th>Số SP bán</th>
+                    <th>TB/đơn</th>
+                </tr>
+            </thead>
+            <tbody id="revenue-table-body">
+                <tr>
+                    <td colspan="5" style="text-align: center; padding: 40px;">Đang tải dữ liệu...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Top Products Table -->
+<div style="background: white; border-radius: 6px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">Sản phẩm bán chạy nhất</h3>
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Xếp hạng</th>
+                    <th>Sản phẩm</th>
+                    <th>SKU</th>
+                    <th>Số lượng bán</th>
+                    <th>Doanh thu</th>
+                    <th>% tổng doanh thu</th>
+                </tr>
+            </thead>
+            <tbody id="top-products-body">
+                <tr>
+                    <td colspan="6" style="text-align: center; padding: 40px;">Đang tải dữ liệu...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
