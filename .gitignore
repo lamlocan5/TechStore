@@ -1,0 +1,262 @@
+# ============================================================
+#  .gitignore — Bookstore Microservices (SQA Project)
+#  Covers: Java/Maven, Spring Boot, Next.js, Python, JMeter,
+#          IDE files, OS junk, secrets & sensitive data
+# ============================================================
+
+
+# ============================================================
+# 🔐 SECRETS & ENVIRONMENT — NEVER PUSH THESE
+# ============================================================
+.env
+.env.*
+!.env.example        # giữ lại file mẫu để người khác biết cần set gì
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+application-secret.yml
+application-secret.properties
+application-prod.yml
+application-prod.properties
+secret.yml
+secrets/
+
+
+# ============================================================
+# ⚙️ RESOURCES FOLDERS (config files, application.properties)
+# ============================================================
+
+# Ignore tất cả thư mục resources — tránh lộ config, DB credentials
+src/main/resources/
+src/test/resources/
+**/src/main/resources/
+**/src/test/resources/
+resources/
+
+
+# ============================================================
+# ☕ JAVA / MAVEN (Spring Boot services)
+# ============================================================
+
+# Compiled output
+target/
+*.class
+
+# Maven wrapper (tuỳ chọn — giữ lại nếu không có Maven global)
+# .mvn/wrapper/maven-wrapper.jar
+
+# Packaging
+*.jar
+*.war
+*.ear
+*.nar
+
+# Surefire test reports (xml + txt)
+**/surefire-reports/
+surefire_output.txt
+
+# JaCoCo coverage output
+**/jacoco.exec
+**/jacoco-results/
+
+# Spring Boot DevTools restart trigger
+.spring-boot-devtools.properties
+
+# Log files
+*.log
+logs/
+spring.log
+
+
+# ============================================================
+# 🐍 PYTHON (AI Image Search Service)
+# ============================================================
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI / ML model weights & large data files
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.bin
+*.safetensors
+data/index/          # FAISS / pickle vector index
+data/*.pkl
+data/*.bin
+
+
+# ============================================================
+# 🌐 NODE.JS / NEXT.JS (Frontend + FE Admin)
+# ============================================================
+
+node_modules/
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# Next.js build output
+.next/
+out/
+
+# Production build
+dist/
+build/
+
+# Cache
+.cache/
+.turbo/
+.eslintcache
+
+# Vercel / deployment
+.vercel
+
+# TypeScript incremental
+*.tsbuildinfo
+next-env.d.ts
+
+
+# ============================================================
+# 🔥 JMETER (Performance Tests)
+# ============================================================
+
+# Test result files (large, generated)
+test_JMeter/results/
+**/*.jtl
+**/*_result.csv
+**/*_result.jtl
+
+# JMeter HTML reports (auto-generated)
+test_JMeter/results/*/
+
+# Backup JMX files
+**/*.jmx.bak
+
+# NOTE: *.jmx files (test plans) ARE tracked — they are source
+# NOTE: data/ CSV files ARE tracked — needed to run tests
+
+
+# ============================================================
+# 💡 IDE & EDITORS
+# ============================================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# STS / Spring Tool Suite
+.springBeans
+
+
+# ============================================================
+# 🖥️ OS GENERATED FILES
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+
+# ============================================================
+# 📊 OFFICE & TEMPORARY FILES
+# ============================================================
+
+# Excel / Word temp files
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.doc
+
+# Zip / Archive
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+
+# ============================================================
+# 🐳 DOCKER (nếu có)
+# ============================================================
+
+# Không bao giờ ignore Dockerfile — cần track
+# Chỉ ignore runtime artifacts
+docker-compose.override.yml
+
+
+# ============================================================
+# 📝 NOTES
+# ============================================================
+# Files ĐƯỢC TRACK (không bị ignore):
+#   ✅ src/**          — source code
+#   ✅ pom.xml         — Maven config
+#   ✅ Dockerfile      — container config
+#   ✅ *.jmx           — JMeter test plans
+#   ✅ data/*.csv      — test seed data
+#   ✅ *.md            — documentation
+#   ✅ .env.example    — env variable template
+#   ✅ requirements.txt — Python deps
+#   ✅ package.json    — Node deps
